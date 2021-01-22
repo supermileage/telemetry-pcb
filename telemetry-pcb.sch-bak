@@ -65,6 +65,8 @@ Wire Wire Line
 Wire Wire Line
 	5300 2900 5700 2900
 Wire Wire Line
+	7100 5500 7100 5400
+Wire Wire Line
 	4300 4600 5100 4600
 Wire Wire Line
 	5100 4600 5100 3900
@@ -100,6 +102,17 @@ Wire Wire Line
 	5500 4700 5700 4700
 Wire Wire Line
 	2100 4600 2200 4600
+$Comp
+L telemetry-pcb-eagle-import:ELECTRON_WITH_HEADERS U$1
+U 1 1 4D826FCC
+P 6400 4200
+F 0 "U$1" H 6400 4200 50  0001 C CNN
+F 1 "ELECTRON_WITH_HEADERS" H 6400 4200 50  0001 C CNN
+F 2 "telemetry-pcb:ELECTRON" H 6400 4200 50  0001 C CNN
+F 3 "" H 6400 4200 50  0001 C CNN
+	1    6400 4200
+	1    0    0    -1  
+$EndComp
 $Comp
 L telemetry-pcb-eagle-import:PINHD-1X9 ADAFRUIT_GPS
 U 1 1 E4CC3319
@@ -500,262 +513,11 @@ F 3 "" H 8750 3800 50  0001 L BNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	9450 4300 9550 4300
+	9450 4300 9700 4300
 Wire Wire Line
 	9700 4300 9700 4350
 Wire Wire Line
-	9450 3300 9550 3300
+	9450 3300 9700 3300
 Wire Wire Line
 	9700 3300 9700 3100
-$Comp
-L Device:C C7
-U 1 1 600E9E52
-P 9550 3800
-F 0 "C7" H 9435 3754 50  0000 R CNN
-F 1 "0.1uF" H 9435 3845 50  0000 R CNN
-F 2 "" H 9588 3650 50  0001 C CNN
-F 3 "~" H 9550 3800 50  0001 C CNN
-	1    9550 3800
-	-1   0    0    1   
-$EndComp
-Wire Wire Line
-	9550 3950 9550 4300
-Connection ~ 9550 4300
-Wire Wire Line
-	9550 4300 9700 4300
-Wire Wire Line
-	9550 3650 9550 3300
-Connection ~ 9550 3300
-Wire Wire Line
-	9550 3300 9700 3300
-$Comp
-L telemetry-pcb-eagle-import:ELECTRON_WITH_HEADERS U$1
-U 1 1 4D826FCC
-P 6400 4200
-F 0 "U$1" H 6400 4200 50  0001 C CNN
-F 1 "ELECTRON_WITH_HEADERS" H 6400 4200 50  0001 C CNN
-F 2 "telemetry-pcb:ELECTRON" H 6400 4200 50  0001 C CNN
-F 3 "" H 6400 4200 50  0001 C CNN
-	1    6400 4200
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	7100 5100 7750 5100
-Wire Wire Line
-	7750 5100 7750 4100
-Wire Wire Line
-	7750 4100 8050 4100
-Wire Wire Line
-	7100 4900 7550 4900
-Wire Wire Line
-	7550 4900 7550 3900
-Wire Wire Line
-	7550 3900 8050 3900
-$Comp
-L Connector_Generic:Conn_01x04 J1
-U 1 1 600F4365
-P 9650 750
-F 0 "J1" V 9614 462 50  0000 R CNN
-F 1 "1x04" V 9523 462 50  0000 R CNN
-F 2 "" H 9650 750 50  0001 C CNN
-F 3 "~" H 9650 750 50  0001 C CNN
-	1    9650 750 
-	0    -1   -1   0   
-$EndComp
-$Comp
-L Connector_Generic:Conn_01x04 J?
-U 1 1 600F6015
-P 9050 750
-F 0 "J?" V 9014 462 50  0000 R CNN
-F 1 "1x04" V 8923 462 50  0000 R CNN
-F 2 "" H 9050 750 50  0001 C CNN
-F 3 "~" H 9050 750 50  0001 C CNN
-	1    9050 750 
-	0    -1   -1   0   
-$EndComp
-$Comp
-L Connector_Generic:Conn_01x04 J?
-U 1 1 600F6DD5
-P 8450 750
-F 0 "J?" V 8414 462 50  0000 R CNN
-F 1 "1x04" V 8323 462 50  0000 R CNN
-F 2 "" H 8450 750 50  0001 C CNN
-F 3 "~" H 8450 750 50  0001 C CNN
-	1    8450 750 
-	0    -1   -1   0   
-$EndComp
-$Comp
-L Connector_Generic:Conn_01x04 J?
-U 1 1 600F77BA
-P 7850 750
-F 0 "J?" V 7814 462 50  0000 R CNN
-F 1 "1x04" V 7723 462 50  0000 R CNN
-F 2 "" H 7850 750 50  0001 C CNN
-F 3 "~" H 7850 750 50  0001 C CNN
-	1    7850 750 
-	0    -1   -1   0   
-$EndComp
-$Comp
-L Connector_Generic:Conn_01x04 J?
-U 1 1 600F827B
-P 7250 750
-F 0 "J?" V 7214 462 50  0000 R CNN
-F 1 "1x04" V 7123 462 50  0000 R CNN
-F 2 "" H 7250 750 50  0001 C CNN
-F 3 "~" H 7250 750 50  0001 C CNN
-	1    7250 750 
-	0    -1   -1   0   
-$EndComp
-$Comp
-L Connector_Generic:Conn_01x04 J?
-U 1 1 600F890D
-P 6650 750
-F 0 "J?" V 6614 462 50  0000 R CNN
-F 1 "1x04" V 6523 462 50  0000 R CNN
-F 2 "" H 6650 750 50  0001 C CNN
-F 3 "~" H 6650 750 50  0001 C CNN
-	1    6650 750 
-	0    -1   -1   0   
-$EndComp
-$Comp
-L telemetry-pcb-eagle-import:+12V #SUPPLY?
-U 1 1 600F8FD4
-P 10550 1050
-F 0 "#SUPPLY?" H 10550 1050 50  0001 C CNN
-F 1 "+12V" H 10545 1170 59  0000 C BNN
-F 2 "" H 10550 1050 50  0001 C CNN
-F 3 "" H 10550 1050 50  0001 C CNN
-	1    10550 1050
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	10550 1050 9850 1050
-Wire Wire Line
-	9850 1050 9850 950 
-Wire Wire Line
-	9850 1050 9250 1050
-Wire Wire Line
-	9250 1050 9250 950 
-Connection ~ 9850 1050
-Wire Wire Line
-	9250 1050 8650 1050
-Wire Wire Line
-	8650 1050 8650 950 
-Connection ~ 9250 1050
-Wire Wire Line
-	8650 1050 8050 1050
-Wire Wire Line
-	8050 1050 8050 950 
-Connection ~ 8650 1050
-Wire Wire Line
-	8050 1050 7450 1050
-Wire Wire Line
-	7450 1050 7450 950 
-Connection ~ 8050 1050
-Wire Wire Line
-	7450 1050 6850 1050
-Wire Wire Line
-	6850 1050 6850 950 
-Connection ~ 7450 1050
-$Comp
-L telemetry-pcb-eagle-import:GND #SUPPLY?
-U 1 1 60109380
-P 5950 1300
-F 0 "#SUPPLY?" H 5950 1300 50  0001 C CNN
-F 1 "GND" H 5950 1200 59  0000 C CNN
-F 2 "" H 5950 1300 50  0001 C CNN
-F 3 "" H 5950 1300 50  0001 C CNN
-	1    5950 1300
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	5950 1200 6750 1200
-Wire Wire Line
-	6750 1200 6750 950 
-Wire Wire Line
-	6750 1200 7350 1200
-Wire Wire Line
-	7350 1200 7350 950 
-Connection ~ 6750 1200
-Wire Wire Line
-	7350 1200 7950 1200
-Wire Wire Line
-	7950 1200 7950 950 
-Connection ~ 7350 1200
-Wire Wire Line
-	7950 1200 8550 1200
-Wire Wire Line
-	8550 1200 8550 950 
-Connection ~ 7950 1200
-Wire Wire Line
-	8550 1200 9150 1200
-Wire Wire Line
-	9150 1200 9150 950 
-Connection ~ 8550 1200
-Wire Wire Line
-	9150 1200 9750 1200
-Wire Wire Line
-	9750 1200 9750 950 
-Connection ~ 9150 1200
-Wire Wire Line
-	8050 3500 8050 1400
-Wire Wire Line
-	8050 1400 7850 1400
-Wire Wire Line
-	7850 950  7850 1400
-Wire Wire Line
-	7850 1400 7250 1400
-Wire Wire Line
-	7250 1400 7250 950 
-Connection ~ 7850 1400
-Wire Wire Line
-	7250 1400 6650 1400
-Wire Wire Line
-	6650 1400 6650 950 
-Connection ~ 7250 1400
-Wire Wire Line
-	8050 1400 8450 1400
-Wire Wire Line
-	8450 1400 8450 950 
-Connection ~ 8050 1400
-Wire Wire Line
-	8450 1400 9050 1400
-Wire Wire Line
-	9050 1400 9050 950 
-Connection ~ 8450 1400
-Wire Wire Line
-	9050 1400 9650 1400
-Wire Wire Line
-	9650 1400 9650 950 
-Connection ~ 9050 1400
-Wire Wire Line
-	8050 3700 7750 3700
-Wire Wire Line
-	7750 3700 7750 1600
-Wire Wire Line
-	7750 1600 7150 1600
-Wire Wire Line
-	7150 1600 7150 950 
-Connection ~ 7750 1600
-Wire Wire Line
-	7750 1600 7750 950 
-Wire Wire Line
-	7150 1600 6550 1600
-Wire Wire Line
-	6550 1600 6550 950 
-Connection ~ 7150 1600
-Wire Wire Line
-	7750 1600 8350 1600
-Wire Wire Line
-	8350 1600 8350 950 
-Wire Wire Line
-	8350 1600 8950 1600
-Wire Wire Line
-	8950 1600 8950 950 
-Connection ~ 8350 1600
-Wire Wire Line
-	8950 1600 9550 1600
-Wire Wire Line
-	9550 1600 9550 950 
-Connection ~ 8950 1600
 $EndSCHEMATC
