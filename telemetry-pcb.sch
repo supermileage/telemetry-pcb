@@ -51,8 +51,6 @@ Connection ~ 3000 5500
 Text Label 3300 4400 0    10   ~ 0
 GND
 Wire Wire Line
-	5200 2300 5200 2500
-Wire Wire Line
 	5200 2500 5700 2500
 Wire Wire Line
 	3900 2800 2900 2800
@@ -98,8 +96,6 @@ Wire Wire Line
 	5500 5800 5500 4700
 Wire Wire Line
 	5500 4700 5700 4700
-Wire Wire Line
-	2100 4600 2200 4600
 $Comp
 L telemetry-pcb-eagle-import:PINHD-1X9 ADAFRUIT_GPS
 U 1 1 E4CC3319
@@ -109,17 +105,6 @@ F 1 "PINHD-1X9" H 3750 2500 59  0000 L BNN
 F 2 "telemetry-pcb:1X09-BIG" H 4000 3100 50  0001 C CNN
 F 3 "" H 4000 3100 50  0001 C CNN
 	1    4000 3100
-	1    0    0    -1  
-$EndComp
-$Comp
-L telemetry-pcb-eagle-import:PINHD-1X2 ECU_UART
-U 1 1 88561F98
-P 10750 5850
-F 0 "ECU_UART" H 10500 6075 59  0000 L BNN
-F 1 "PINHD-1X2" H 10500 5650 59  0001 L BNN
-F 2 "telemetry-pcb:1X02" H 10750 5850 50  0001 C CNN
-F 3 "" H 10750 5850 50  0001 C CNN
-	1    10750 5850
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -167,17 +152,6 @@ F 3 "" H 5100 2800 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L telemetry-pcb-eagle-import:+12V #SUPPLY3
-U 1 1 A2174882
-P 5200 2300
-F 0 "#SUPPLY3" H 5200 2300 50  0001 C CNN
-F 1 "+12V" H 5195 2420 59  0000 C BNN
-F 2 "" H 5200 2300 50  0001 C CNN
-F 3 "" H 5200 2300 50  0001 C CNN
-	1    5200 2300
-	1    0    0    -1  
-$EndComp
-$Comp
 L telemetry-pcb-eagle-import:GND #SUPPLY5
 U 1 1 69238711
 P 3500 3400
@@ -220,28 +194,6 @@ F 2 "" H 3000 6000 50  0001 C CNN
 F 3 "" H 3000 6000 50  0001 C CNN
 	1    3000 6000
 	1    0    0    -1  
-$EndComp
-$Comp
-L telemetry-pcb-eagle-import:PINHD-1X2 THERMO_IN_1
-U 1 1 8AB08F88
-P 2000 4600
-F 0 "THERMO_IN_1" H 1750 4825 59  0000 L BNN
-F 1 "PINHD-1X2" H 1750 4400 59  0001 L BNN
-F 2 "telemetry-pcb:1X02" H 2000 4600 50  0001 C CNN
-F 3 "" H 2000 4600 50  0001 C CNN
-	1    2000 4600
-	-1   0    0    1   
-$EndComp
-$Comp
-L telemetry-pcb-eagle-import:PINHD-1X2 THERMO_IN_2
-U 1 1 EB387157
-P 2000 5700
-F 0 "THERMO_IN_2" H 1750 5925 59  0000 L BNN
-F 1 "PINHD-1X2" H 1750 5500 59  0001 L BNN
-F 2 "telemetry-pcb:1X02" H 2000 5700 50  0001 C CNN
-F 3 "" H 2000 5700 50  0001 C CNN
-	1    2000 5700
-	-1   0    0    1   
 $EndComp
 Text GLabel 7100 3100 0    10   BiDi ~ 0
 GND
@@ -304,14 +256,6 @@ Wire Wire Line
 Connection ~ 3200 5500
 Wire Wire Line
 	3200 5500 3300 5500
-Wire Wire Line
-	2300 4600 3300 4600
-Wire Wire Line
-	2100 4700 3300 4700
-Wire Wire Line
-	2100 5800 3300 5800
-Wire Wire Line
-	2100 5700 3300 5700
 $Comp
 L telemetry-pcb-eagle-import:GND #SUPPLY?
 U 1 1 600B691F
@@ -551,211 +495,205 @@ Wire Wire Line
 	7550 4900 7550 3900
 Wire Wire Line
 	7550 3900 8050 3900
-$Comp
-L Connector_Generic:Conn_01x04 J1
-U 1 1 600F4365
-P 9650 750
-F 0 "J1" V 9614 462 50  0000 R CNN
-F 1 "1x04" V 9523 462 50  0000 R CNN
-F 2 "" H 9650 750 50  0001 C CNN
-F 3 "~" H 9650 750 50  0001 C CNN
-	1    9650 750 
-	0    -1   -1   0   
-$EndComp
-$Comp
-L Connector_Generic:Conn_01x04 J?
-U 1 1 600F6015
-P 9050 750
-F 0 "J?" V 9014 462 50  0000 R CNN
-F 1 "1x04" V 8923 462 50  0000 R CNN
-F 2 "" H 9050 750 50  0001 C CNN
-F 3 "~" H 9050 750 50  0001 C CNN
-	1    9050 750 
-	0    -1   -1   0   
-$EndComp
-$Comp
-L Connector_Generic:Conn_01x04 J?
-U 1 1 600F6DD5
-P 8450 750
-F 0 "J?" V 8414 462 50  0000 R CNN
-F 1 "1x04" V 8323 462 50  0000 R CNN
-F 2 "" H 8450 750 50  0001 C CNN
-F 3 "~" H 8450 750 50  0001 C CNN
-	1    8450 750 
-	0    -1   -1   0   
-$EndComp
-$Comp
-L Connector_Generic:Conn_01x04 J?
-U 1 1 600F77BA
-P 7850 750
-F 0 "J?" V 7814 462 50  0000 R CNN
-F 1 "1x04" V 7723 462 50  0000 R CNN
-F 2 "" H 7850 750 50  0001 C CNN
-F 3 "~" H 7850 750 50  0001 C CNN
-	1    7850 750 
-	0    -1   -1   0   
-$EndComp
-$Comp
-L Connector_Generic:Conn_01x04 J?
-U 1 1 600F827B
-P 7250 750
-F 0 "J?" V 7214 462 50  0000 R CNN
-F 1 "1x04" V 7123 462 50  0000 R CNN
-F 2 "" H 7250 750 50  0001 C CNN
-F 3 "~" H 7250 750 50  0001 C CNN
-	1    7250 750 
-	0    -1   -1   0   
-$EndComp
-$Comp
-L Connector_Generic:Conn_01x04 J?
-U 1 1 600F890D
-P 6650 750
-F 0 "J?" V 6614 462 50  0000 R CNN
-F 1 "1x04" V 6523 462 50  0000 R CNN
-F 2 "" H 6650 750 50  0001 C CNN
-F 3 "~" H 6650 750 50  0001 C CNN
-	1    6650 750 
-	0    -1   -1   0   
-$EndComp
-$Comp
-L telemetry-pcb-eagle-import:+12V #SUPPLY?
-U 1 1 600F8FD4
-P 10550 1050
-F 0 "#SUPPLY?" H 10550 1050 50  0001 C CNN
-F 1 "+12V" H 10545 1170 59  0000 C BNN
-F 2 "" H 10550 1050 50  0001 C CNN
-F 3 "" H 10550 1050 50  0001 C CNN
-	1    10550 1050
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	10550 1050 9850 1050
-Wire Wire Line
-	9850 1050 9850 950 
-Wire Wire Line
-	9850 1050 9250 1050
-Wire Wire Line
-	9250 1050 9250 950 
-Connection ~ 9850 1050
-Wire Wire Line
-	9250 1050 8650 1050
-Wire Wire Line
-	8650 1050 8650 950 
-Connection ~ 9250 1050
-Wire Wire Line
-	8650 1050 8050 1050
-Wire Wire Line
-	8050 1050 8050 950 
-Connection ~ 8650 1050
-Wire Wire Line
-	8050 1050 7450 1050
-Wire Wire Line
-	7450 1050 7450 950 
-Connection ~ 8050 1050
-Wire Wire Line
-	7450 1050 6850 1050
-Wire Wire Line
-	6850 1050 6850 950 
-Connection ~ 7450 1050
-$Comp
-L telemetry-pcb-eagle-import:GND #SUPPLY?
-U 1 1 60109380
-P 5950 1300
-F 0 "#SUPPLY?" H 5950 1300 50  0001 C CNN
-F 1 "GND" H 5950 1200 59  0000 C CNN
-F 2 "" H 5950 1300 50  0001 C CNN
-F 3 "" H 5950 1300 50  0001 C CNN
-	1    5950 1300
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	5950 1200 6750 1200
-Wire Wire Line
-	6750 1200 6750 950 
-Wire Wire Line
-	6750 1200 7350 1200
-Wire Wire Line
-	7350 1200 7350 950 
-Connection ~ 6750 1200
-Wire Wire Line
-	7350 1200 7950 1200
-Wire Wire Line
-	7950 1200 7950 950 
-Connection ~ 7350 1200
-Wire Wire Line
-	7950 1200 8550 1200
-Wire Wire Line
-	8550 1200 8550 950 
-Connection ~ 7950 1200
-Wire Wire Line
-	8550 1200 9150 1200
-Wire Wire Line
-	9150 1200 9150 950 
-Connection ~ 8550 1200
-Wire Wire Line
-	9150 1200 9750 1200
-Wire Wire Line
-	9750 1200 9750 950 
-Connection ~ 9150 1200
 Wire Wire Line
 	8050 3500 8050 1400
-Wire Wire Line
-	8050 1400 7850 1400
-Wire Wire Line
-	7850 950  7850 1400
-Wire Wire Line
-	7850 1400 7250 1400
-Wire Wire Line
-	7250 1400 7250 950 
-Connection ~ 7850 1400
-Wire Wire Line
-	7250 1400 6650 1400
-Wire Wire Line
-	6650 1400 6650 950 
-Connection ~ 7250 1400
-Wire Wire Line
-	8050 1400 8450 1400
-Wire Wire Line
-	8450 1400 8450 950 
 Connection ~ 8050 1400
-Wire Wire Line
-	8450 1400 9050 1400
-Wire Wire Line
-	9050 1400 9050 950 
-Connection ~ 8450 1400
-Wire Wire Line
-	9050 1400 9650 1400
-Wire Wire Line
-	9650 1400 9650 950 
-Connection ~ 9050 1400
 Wire Wire Line
 	8050 3700 7750 3700
 Wire Wire Line
 	7750 3700 7750 1600
-Wire Wire Line
-	7750 1600 7150 1600
-Wire Wire Line
-	7150 1600 7150 950 
 Connection ~ 7750 1600
+$Comp
+L Connector:Screw_Terminal_01x02 THERMO_IN1
+U 1 1 600BD1F3
+P 2300 4700
+F 0 "THERMO_IN1" H 2218 4375 50  0000 C CNN
+F 1 "1x02" H 2218 4466 50  0000 C CNN
+F 2 "" H 2300 4700 50  0001 C CNN
+F 3 "~" H 2300 4700 50  0001 C CNN
+	1    2300 4700
+	-1   0    0    1   
+$EndComp
 Wire Wire Line
-	7750 1600 7750 950 
+	2500 4600 3300 4600
 Wire Wire Line
-	7150 1600 6550 1600
+	2500 4700 3300 4700
+$Comp
+L Connector:Screw_Terminal_01x02 THERMO_IN2
+U 1 1 600EC029
+P 2300 5800
+F 0 "THERMO_IN2" H 2218 5475 50  0000 C CNN
+F 1 "1x02" H 2218 5566 50  0000 C CNN
+F 2 "" H 2300 5800 50  0001 C CNN
+F 3 "~" H 2300 5800 50  0001 C CNN
+	1    2300 5800
+	-1   0    0    1   
+$EndComp
 Wire Wire Line
-	6550 1600 6550 950 
-Connection ~ 7150 1600
+	2500 5800 3300 5800
 Wire Wire Line
-	7750 1600 8350 1600
+	2500 5700 3300 5700
+$Comp
+L Connector:Screw_Terminal_01x02 ECU_RS232
+U 1 1 6010097F
+P 10850 5750
+F 0 "ECU_RS232" H 10930 5742 50  0000 L CNN
+F 1 "1x02" H 10930 5651 50  0000 L CNN
+F 2 "" H 10850 5750 50  0001 C CNN
+F 3 "~" H 10850 5750 50  0001 C CNN
+	1    10850 5750
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:Screw_Terminal_01x02 12V_IN
+U 1 1 60109049
+P 3900 1200
+F 0 "12V_IN" V 3864 1012 50  0000 R CNN
+F 1 "1x02" V 3773 1012 50  0000 R CNN
+F 2 "" H 3900 1200 50  0001 C CNN
+F 3 "~" H 3900 1200 50  0001 C CNN
+	1    3900 1200
+	0    -1   -1   0   
+$EndComp
 Wire Wire Line
-	8350 1600 8350 950 
+	5200 1650 4000 1650
 Wire Wire Line
-	8350 1600 8950 1600
+	4000 1650 4000 1400
 Wire Wire Line
-	8950 1600 8950 950 
-Connection ~ 8350 1600
+	5200 1650 5200 2500
+$Comp
+L telemetry-pcb-eagle-import:GND #SUPPLY?
+U 1 1 60110481
+P 3900 1850
+F 0 "#SUPPLY?" H 3900 1850 50  0001 C CNN
+F 1 "GND" H 3900 1750 59  0000 C CNN
+F 2 "" H 3900 1850 50  0001 C CNN
+F 3 "" H 3900 1850 50  0001 C CNN
+	1    3900 1850
+	1    0    0    -1  
+$EndComp
 Wire Wire Line
-	8950 1600 9550 1600
+	3900 1400 3900 1750
 Wire Wire Line
-	9550 1600 9550 950 
-Connection ~ 8950 1600
+	8050 1400 8250 1400
+Wire Wire Line
+	7750 1600 8150 1600
+$Comp
+L Connector:Screw_Terminal_01x02 CAN_INOUT1
+U 1 1 601216B6
+P 9550 1000
+F 0 "CAN_INOUT1" V 9514 812 50  0000 R CNN
+F 1 "1x02" V 9423 812 50  0000 R CNN
+F 2 "" H 9550 1000 50  0001 C CNN
+F 3 "~" H 9550 1000 50  0001 C CNN
+	1    9550 1000
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Connector:Screw_Terminal_01x02 CAN_INOUT2
+U 1 1 601223E0
+P 8850 1000
+F 0 "CAN_INOUT2" V 8814 812 50  0000 R CNN
+F 1 "1x02" V 8723 812 50  0000 R CNN
+F 2 "" H 8850 1000 50  0001 C CNN
+F 3 "~" H 8850 1000 50  0001 C CNN
+	1    8850 1000
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Connector:Screw_Terminal_01x02 CAN_INOUT3
+U 1 1 60122F88
+P 8150 1000
+F 0 "CAN_INOUT3" V 8114 812 50  0000 R CNN
+F 1 "1x02" V 8023 812 50  0000 R CNN
+F 2 "" H 8150 1000 50  0001 C CNN
+F 3 "~" H 8150 1000 50  0001 C CNN
+	1    8150 1000
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Connector:Screw_Terminal_01x02 CAN_INOUT4
+U 1 1 6012347E
+P 7450 1000
+F 0 "CAN_INOUT4" V 7414 812 50  0000 R CNN
+F 1 "1x02" V 7323 812 50  0000 R CNN
+F 2 "" H 7450 1000 50  0001 C CNN
+F 3 "~" H 7450 1000 50  0001 C CNN
+	1    7450 1000
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Connector:Screw_Terminal_01x02 CAN_INOUT5
+U 1 1 60123EFB
+P 6750 1000
+F 0 "CAN_INOUT5" V 6714 812 50  0000 R CNN
+F 1 "1x02" V 6623 812 50  0000 R CNN
+F 2 "" H 6750 1000 50  0001 C CNN
+F 3 "~" H 6750 1000 50  0001 C CNN
+	1    6750 1000
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Connector:Screw_Terminal_01x02 CAN_INOUT6
+U 1 1 601243E7
+P 6050 1000
+F 0 "CAN_INOUT6" V 6014 812 50  0000 R CNN
+F 1 "1x02" V 5923 812 50  0000 R CNN
+F 2 "" H 6050 1000 50  0001 C CNN
+F 3 "~" H 6050 1000 50  0001 C CNN
+	1    6050 1000
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	9650 1400 9650 1200
+Wire Wire Line
+	8950 1400 8950 1200
+Connection ~ 8950 1400
+Wire Wire Line
+	8950 1400 9650 1400
+Wire Wire Line
+	8250 1400 8250 1200
+Connection ~ 8250 1400
+Wire Wire Line
+	8250 1400 8950 1400
+Wire Wire Line
+	7550 1400 7550 1200
+Connection ~ 7550 1400
+Wire Wire Line
+	7550 1400 8050 1400
+Wire Wire Line
+	6850 1400 6850 1200
+Connection ~ 6850 1400
+Wire Wire Line
+	6850 1400 7550 1400
+Wire Wire Line
+	6150 1400 6150 1200
+Wire Wire Line
+	6150 1400 6850 1400
+Wire Wire Line
+	6050 1600 6050 1200
+Wire Wire Line
+	6050 1600 6750 1600
+Wire Wire Line
+	6750 1600 6750 1200
+Connection ~ 6750 1600
+Wire Wire Line
+	6750 1600 7450 1600
+Wire Wire Line
+	7450 1600 7450 1200
+Connection ~ 7450 1600
+Wire Wire Line
+	7450 1600 7750 1600
+Wire Wire Line
+	8150 1600 8150 1200
+Connection ~ 8150 1600
+Wire Wire Line
+	8150 1600 8850 1600
+Wire Wire Line
+	8850 1600 8850 1200
+Connection ~ 8850 1600
+Wire Wire Line
+	8850 1600 9550 1600
+Wire Wire Line
+	9550 1600 9550 1200
 $EndSCHEMATC
