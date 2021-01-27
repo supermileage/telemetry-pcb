@@ -1111,8 +1111,6 @@ NoConn ~ 3900 3400
 NoConn ~ 3900 3500
 NoConn ~ 1200 500 
 NoConn ~ 2600 1800
-NoConn ~ 12450 6150
-NoConn ~ 12400 6150
 $Comp
 L power:+12V #PWR0101
 U 1 1 60515DC7

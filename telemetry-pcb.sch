@@ -205,9 +205,6 @@ Wire Wire Line
 	9350 2750 9350 2300
 Wire Wire Line
 	7750 2300 9350 2300
-Connection ~ 8250 2750
-Wire Wire Line
-	8250 2750 8300 2750
 Wire Wire Line
 	8550 2750 8750 2750
 Wire Wire Line
