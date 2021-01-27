@@ -1066,7 +1066,7 @@ Connection ~ 1650 1200
 Wire Wire Line
 	2800 500  2800 1200
 Wire Wire Line
-	2800 1200 3650 1200
+	2800 1200 3250 1200
 Wire Wire Line
 	3650 500  3650 1200
 Connection ~ 2800 1200
@@ -1078,7 +1078,7 @@ Connection ~ 2250 1350
 Wire Wire Line
 	2250 1350 2250 1500
 Wire Wire Line
-	2900 1350 3750 1350
+	2900 1350 3350 1350
 Wire Wire Line
 	3750 1350 3750 500 
 Connection ~ 2900 1350
@@ -1194,4 +1194,25 @@ Wire Wire Line
 	2750 5100 2750 5500
 Wire Wire Line
 	2750 5500 3000 5500
+$Comp
+L Connector_Generic:Conn_01x02 12V_FAN
+U 1 1 60791D32
+P 3350 2000
+F 0 "12V_FAN" V 3314 1812 50  0000 R CNN
+F 1 "CONN_1x02" V 3223 1812 50  0000 R CNN
+F 2 "" H 3350 2000 50  0001 C CNN
+F 3 "~" H 3350 2000 50  0001 C CNN
+	1    3350 2000
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	3350 1800 3350 1350
+Connection ~ 3350 1350
+Wire Wire Line
+	3350 1350 3750 1350
+Wire Wire Line
+	3250 1800 3250 1200
+Connection ~ 3250 1200
+Wire Wire Line
+	3250 1200 3650 1200
 $EndSCHEMATC
