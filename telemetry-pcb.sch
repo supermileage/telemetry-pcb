@@ -24,8 +24,6 @@ Wire Wire Line
 Connection ~ 2900 4100
 Wire Wire Line
 	3000 4400 3000 5500
-Wire Wire Line
-	3000 5500 3000 5900
 Connection ~ 3000 5500
 Text Label 3300 4400 0    10   ~ 0
 GND
@@ -154,9 +152,7 @@ Wire Wire Line
 Wire Wire Line
 	7750 3700 7750 2300
 Wire Wire Line
-	2500 4600 3300 4600
-Wire Wire Line
-	2500 4700 3300 4700
+	2500 4600 3050 4600
 $Comp
 L Connector:Screw_Terminal_01x02 CN11
 U 1 1 600EC029
@@ -168,10 +164,6 @@ F 3 "~" H 2300 5800 50  0001 C CNN
 	1    2300 5800
 	-1   0    0    1   
 $EndComp
-Wire Wire Line
-	2500 5800 3300 5800
-Wire Wire Line
-	2500 5700 3300 5700
 $Comp
 L Switch:SW_DIP_x01 S1
 U 1 1 600F3419
@@ -629,32 +621,28 @@ Wire Wire Line
 Wire Wire Line
 	4950 2500 5700 2500
 Wire Wire Line
-	4700 550  5200 550 
+	5250 550  5750 550 
 Wire Wire Line
-	4700 550  4700 650 
+	6500 1600 6500 850 
 Wire Wire Line
-	7750 1600 7600 1600
+	6500 850  6250 850 
 Wire Wire Line
-	5950 1600 5950 850 
+	6500 850  6500 650 
 Wire Wire Line
-	5950 850  5700 850 
-Wire Wire Line
-	5950 850  5950 650 
-Wire Wire Line
-	5950 650  5700 650 
-Connection ~ 5950 850 
+	6500 650  6250 650 
+Connection ~ 6500 850 
 Wire Wire Line
 	8050 2750 8050 2050
 Wire Wire Line
-	6100 1450 6100 750 
+	6650 1450 6650 750 
 Wire Wire Line
-	6100 750  5700 750 
+	6650 750  6250 750 
 Connection ~ 8050 2750
 Wire Wire Line
-	6100 750  6100 550 
+	6650 750  6650 550 
 Wire Wire Line
-	6100 550  5700 550 
-Connection ~ 6100 750 
+	6650 550  6250 550 
+Connection ~ 6650 750 
 $Comp
 L Connector_Generic:Conn_01x02 CN3
 U 1 1 6039FF98
@@ -677,95 +665,84 @@ F 3 "~" H 2150 300 50  0001 C CNN
 	1    2150 300 
 	0    -1   -1   0   
 $EndComp
-Wire Wire Line
-	4700 450  4700 550 
-Connection ~ 4700 550 
 $Comp
 L Connector_Generic:Conn_01x02 CN6
 U 1 1 603FD405
-P 6800 300
-F 0 "CN6" V 6764 112 50  0000 R CNN
-F 1 "CAN" V 6673 112 50  0000 R CNN
-F 2 "" H 6800 300 50  0001 C CNN
-F 3 "~" H 6800 300 50  0001 C CNN
-	1    6800 300 
+P 7350 300
+F 0 "CN6" V 7314 112 50  0000 R CNN
+F 1 "CAN" V 7223 112 50  0000 R CNN
+F 2 "" H 7350 300 50  0001 C CNN
+F 3 "~" H 7350 300 50  0001 C CNN
+	1    7350 300 
 	0    -1   -1   0   
 $EndComp
 $Comp
 L Connector_Generic:Conn_01x02 CN7
 U 1 1 603FEC33
-P 7600 300
-F 0 "CN7" V 7564 112 50  0000 R CNN
-F 1 "CAN" V 7473 112 50  0000 R CNN
-F 2 "" H 7600 300 50  0001 C CNN
-F 3 "~" H 7600 300 50  0001 C CNN
-	1    7600 300 
+P 8150 300
+F 0 "CN7" V 8114 112 50  0000 R CNN
+F 1 "CAN" V 8023 112 50  0000 R CNN
+F 2 "" H 8150 300 50  0001 C CNN
+F 3 "~" H 8150 300 50  0001 C CNN
+	1    8150 300 
 	0    -1   -1   0   
 $EndComp
 $Comp
 L Connector_Generic:Conn_01x02 CN8
 U 1 1 603FF405
-P 8350 300
-F 0 "CN8" V 8314 112 50  0000 R CNN
-F 1 "CAN" V 8223 112 50  0000 R CNN
-F 2 "" H 8350 300 50  0001 C CNN
-F 3 "~" H 8350 300 50  0001 C CNN
-	1    8350 300 
+P 8900 300
+F 0 "CN8" V 8864 112 50  0000 R CNN
+F 1 "CAN" V 8773 112 50  0000 R CNN
+F 2 "" H 8900 300 50  0001 C CNN
+F 3 "~" H 8900 300 50  0001 C CNN
+	1    8900 300 
 	0    -1   -1   0   
 $EndComp
 $Comp
 L Connector_Generic:Conn_01x02 CN9
 U 1 1 603FFABA
-P 9100 300
-F 0 "CN9" V 9064 112 50  0000 R CNN
-F 1 "CAN" V 8973 112 50  0000 R CNN
-F 2 "" H 9100 300 50  0001 C CNN
-F 3 "~" H 9100 300 50  0001 C CNN
-	1    9100 300 
+P 9650 300
+F 0 "CN9" V 9614 112 50  0000 R CNN
+F 1 "CAN" V 9523 112 50  0000 R CNN
+F 2 "" H 9650 300 50  0001 C CNN
+F 3 "~" H 9650 300 50  0001 C CNN
+	1    9650 300 
 	0    -1   -1   0   
 $EndComp
 Wire Wire Line
-	6800 1600 6800 500 
-Connection ~ 6800 1600
+	7350 1600 7350 500 
+Connection ~ 7350 1600
 Wire Wire Line
-	6800 1600 5950 1600
+	7350 1600 6500 1600
 Wire Wire Line
-	7600 1600 7600 500 
-Connection ~ 7600 1600
+	8150 1600 8150 500 
+Connection ~ 8150 1600
 Wire Wire Line
-	7600 1600 6800 1600
+	8150 1600 7750 1600
 Wire Wire Line
-	7750 1600 8350 1600
+	8900 1600 8900 500 
 Wire Wire Line
-	8350 1600 8350 500 
-Connection ~ 7750 1600
+	8900 1600 9650 1600
 Wire Wire Line
-	8350 1600 9100 1600
+	9650 1600 9650 500 
+Connection ~ 8900 1600
 Wire Wire Line
-	9100 1600 9100 500 
-Connection ~ 8350 1600
+	7450 1450 7450 500 
+Connection ~ 7450 1450
 Wire Wire Line
-	8050 1450 7700 1450
+	7450 1450 6650 1450
 Wire Wire Line
-	6900 1450 6900 500 
-Connection ~ 6900 1450
+	8250 1450 8250 500 
+Connection ~ 8250 1450
 Wire Wire Line
-	6900 1450 6100 1450
+	8250 1450 8050 1450
 Wire Wire Line
-	7700 1450 7700 500 
-Connection ~ 7700 1450
+	9000 1450 9000 500 
 Wire Wire Line
-	7700 1450 6900 1450
+	9000 1450 9750 1450
 Wire Wire Line
-	8050 1450 8450 1450
-Wire Wire Line
-	8450 1450 8450 500 
-Connection ~ 8050 1450
-Wire Wire Line
-	8450 1450 9200 1450
-Wire Wire Line
-	9200 1450 9200 500 
-Connection ~ 8450 1450
+	9750 1450 9750 500 
+Connection ~ 9000 1450
 $Comp
 L Device:Fuse F1
 U 1 1 602F6BF8
@@ -803,8 +780,6 @@ Connection ~ 1600 1350
 Wire Wire Line
 	1600 1350 1600 1500
 Wire Wire Line
-	2250 1350 2700 1350
-Wire Wire Line
 	3100 1350 3100 500 
 Connection ~ 2250 1350
 $Comp
@@ -818,16 +793,6 @@ F 3 "~" H 9450 1950 50  0001 C CNN
 	1    9450 1950
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	9250 2050 8050 2050
-Connection ~ 8050 2050
-Wire Wire Line
-	8050 1450 8050 2050
-Wire Wire Line
-	7750 1950 9250 1950
-Connection ~ 7750 1950
-Wire Wire Line
-	7750 1950 7750 1600
 $Comp
 L Connector:Conn_01x02_Female T1
 U 1 1 605C8F4E
@@ -919,11 +884,6 @@ Wire Wire Line
 	2750 5100 2750 5500
 Wire Wire Line
 	2750 5500 3000 5500
-Wire Wire Line
-	2700 1800 2700 1350
-Connection ~ 2700 1350
-Wire Wire Line
-	2700 1350 3100 1350
 $Comp
 L telemetry-pcb-eagle-import:ELECTRON_WITH_HEADERS H2,H3
 U 1 1 4D826FCC
@@ -963,79 +923,67 @@ Wire Wire Line
 $Comp
 L Connector_Generic:Conn_02x05_Counter_Clockwise CN5
 U 1 1 601BCF89
-P 5400 750
-F 0 "CN5" H 5450 1167 50  0000 C CNN
-F 1 "ACC_12V_CAN" H 5450 1076 50  0000 C CNN
-F 2 "" H 5400 750 50  0001 C CNN
-F 3 "~" H 5400 750 50  0001 C CNN
-	1    5400 750 
+P 5950 750
+F 0 "CN5" H 6000 1167 50  0000 C CNN
+F 1 "ACC_12V_CAN" H 6000 1076 50  0000 C CNN
+F 2 "" H 5950 750 50  0001 C CNN
+F 3 "~" H 5950 750 50  0001 C CNN
+	1    5950 750 
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	4700 650  5200 650 
+	5250 650  5750 650 
 Wire Wire Line
-	4700 650  4700 750 
+	5250 750  5750 750 
 Wire Wire Line
-	4700 750  5200 750 
-Connection ~ 4700 650 
+	5500 850  5750 850 
 Wire Wire Line
-	4950 1200 4950 1050
+	5500 950  5750 950 
+Connection ~ 5500 950 
 Wire Wire Line
-	4950 850  5200 850 
-Wire Wire Line
-	4950 950  5200 950 
-Connection ~ 4950 950 
-Wire Wire Line
-	4950 950  4950 850 
-Wire Wire Line
-	4950 1050 5700 1050
-Wire Wire Line
-	5700 1050 5700 950 
-Connection ~ 4950 1050
-Wire Wire Line
-	4950 1050 4950 950 
+	5500 950  5500 850 
 $Comp
 L Connector_Generic:Conn_01x02 CN13
 U 1 1 6024B164
-P 9800 300
-F 0 "CN13" V 9764 112 50  0000 R CNN
-F 1 "CAN" V 9673 112 50  0000 R CNN
-F 2 "" H 9800 300 50  0001 C CNN
-F 3 "~" H 9800 300 50  0001 C CNN
-	1    9800 300 
+P 10350 300
+F 0 "CN13" V 10314 112 50  0000 R CNN
+F 1 "CAN" V 10223 112 50  0000 R CNN
+F 2 "" H 10350 300 50  0001 C CNN
+F 3 "~" H 10350 300 50  0001 C CNN
+	1    10350 300 
 	0    -1   -1   0   
 $EndComp
 $Comp
 L Connector_Generic:Conn_01x02 CN14
 U 1 1 6024BB8E
-P 10450 300
-F 0 "CN14" V 10414 112 50  0000 R CNN
-F 1 "CAN" V 10323 112 50  0000 R CNN
-F 2 "" H 10450 300 50  0001 C CNN
-F 3 "~" H 10450 300 50  0001 C CNN
-	1    10450 300 
+P 11000 300
+F 0 "CN14" V 10964 112 50  0000 R CNN
+F 1 "CAN" V 10873 112 50  0000 R CNN
+F 2 "" H 11000 300 50  0001 C CNN
+F 3 "~" H 11000 300 50  0001 C CNN
+	1    11000 300 
 	0    -1   -1   0   
 $EndComp
 Wire Wire Line
-	9100 1600 9800 1600
+	9650 1600 10350 1600
 Wire Wire Line
-	9800 1600 9800 500 
-Connection ~ 9100 1600
+	10350 1600 10350 500 
+Connection ~ 9650 1600
 Wire Wire Line
-	9800 1600 10450 1600
+	10350 1600 11000 1600
 Wire Wire Line
-	10450 1600 10450 500 
-Connection ~ 9800 1600
+	11000 1600 11000 500 
+Connection ~ 10350 1600
 Wire Wire Line
-	9200 1450 9900 1450
+	9750 1450 10450 1450
 Wire Wire Line
-	9900 1450 9900 500 
-Connection ~ 9200 1450
+	10450 1450 10450 500 
+Connection ~ 9750 1450
 Wire Wire Line
-	9900 1450 10550 1450
+	10450 1450 11100 1450
 Wire Wire Line
-	10550 1450 10550 500 
-Connection ~ 9900 1450
+	11100 1450 11100 500 
+Connection ~ 10450 1450
 $Comp
 L Connector_Generic:Conn_01x03 CN1
 U 1 1 602969C6
@@ -1051,24 +999,6 @@ Wire Wire Line
 	1000 700  1000 500 
 Wire Wire Line
 	1000 500  1100 500 
-$Comp
-L Connector_Generic:Conn_01x03 CN4
-U 1 1 6030F4DD
-P 2600 2000
-F 0 "CN4" V 2472 2180 50  0000 L CNN
-F 1 "FAN" V 2563 2180 50  0000 L CNN
-F 2 "" H 2600 2000 50  0001 C CNN
-F 3 "~" H 2600 2000 50  0001 C CNN
-	1    2600 2000
-	0    1    1    0   
-$EndComp
-Wire Wire Line
-	2150 1200 2500 1200
-Wire Wire Line
-	2500 1800 2500 1200
-Connection ~ 2500 1200
-Wire Wire Line
-	2500 1200 3000 1200
 $Comp
 L Connector_Generic:Conn_01x02 CN15
 U 1 1 6035BAD8
@@ -1087,8 +1017,6 @@ Wire Wire Line
 Connection ~ 3000 1200
 Wire Wire Line
 	3100 1350 3900 1350
-Wire Wire Line
-	3900 1350 3900 500 
 Connection ~ 3100 1350
 NoConn ~ 10650 5250
 NoConn ~ 10650 5350
@@ -1107,7 +1035,6 @@ NoConn ~ 3900 3000
 NoConn ~ 3900 3400
 NoConn ~ 3900 3500
 NoConn ~ 1200 500 
-NoConn ~ 2600 1800
 $Comp
 L power:+12V #PWR0101
 U 1 1 60515DC7
@@ -1117,17 +1044,6 @@ F 1 "+12V" H 4965 2073 50  0000 C CNN
 F 2 "" H 4950 1900 50  0001 C CNN
 F 3 "" H 4950 1900 50  0001 C CNN
 	1    4950 1900
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:+12V #PWR0102
-U 1 1 60516B5D
-P 4700 450
-F 0 "#PWR0102" H 4700 300 50  0001 C CNN
-F 1 "+12V" H 4715 623 50  0000 C CNN
-F 2 "" H 4700 450 50  0001 C CNN
-F 3 "" H 4700 450 50  0001 C CNN
-	1    4700 450 
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -1150,17 +1066,6 @@ F 1 "GND" H 1605 1327 50  0000 C CNN
 F 2 "" H 1600 1500 50  0001 C CNN
 F 3 "" H 1600 1500 50  0001 C CNN
 	1    1600 1500
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:GND #PWR0105
-U 1 1 60519317
-P 4950 1200
-F 0 "#PWR0105" H 4950 950 50  0001 C CNN
-F 1 "GND" H 4955 1027 50  0000 C CNN
-F 2 "" H 4950 1200 50  0001 C CNN
-F 3 "" H 4950 1200 50  0001 C CNN
-	1    4950 1200
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -1188,12 +1093,12 @@ $EndComp
 $Comp
 L power:GND #PWR0108
 U 1 1 6051AF1E
-P 3000 5900
-F 0 "#PWR0108" H 3000 5650 50  0001 C CNN
-F 1 "GND" H 3005 5727 50  0000 C CNN
-F 2 "" H 3000 5900 50  0001 C CNN
-F 3 "" H 3000 5900 50  0001 C CNN
-	1    3000 5900
+P 3000 6200
+F 0 "#PWR0108" H 3000 5950 50  0001 C CNN
+F 1 "GND" H 3005 6027 50  0000 C CNN
+F 2 "" H 3000 6200 50  0001 C CNN
+F 3 "" H 3000 6200 50  0001 C CNN
+	1    3000 6200
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -1363,4 +1268,122 @@ F 3 "~" H 4950 2500 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 Connection ~ 4950 2500
+Wire Wire Line
+	3900 500  3900 1350
+Wire Wire Line
+	5500 950  5500 1350
+Wire Wire Line
+	6250 1350 5500 1350
+Wire Wire Line
+	6250 950  6250 1350
+Wire Wire Line
+	3800 1200 4600 1200
+Connection ~ 3800 1200
+Wire Wire Line
+	3000 5500 3000 6200
+Wire Wire Line
+	3300 5700 3050 5700
+$Comp
+L Device:C C8
+U 1 1 601AB4DB
+P 3050 5850
+F 0 "C8" H 3165 5896 50  0000 L CNN
+F 1 "0.01uF" H 3165 5805 50  0000 L CNN
+F 2 "" H 3088 5700 50  0001 C CNN
+F 3 "~" H 3050 5850 50  0001 C CNN
+	1    3050 5850
+	1    0    0    -1  
+$EndComp
+Connection ~ 3050 5700
+Wire Wire Line
+	3050 5700 2500 5700
+Wire Wire Line
+	3050 6000 3300 6000
+Wire Wire Line
+	3300 6000 3300 5800
+Wire Wire Line
+	3050 6000 2500 6000
+Wire Wire Line
+	2500 6000 2500 5800
+Connection ~ 3050 6000
+$Comp
+L Device:C C9
+U 1 1 601EEC26
+P 3050 4750
+F 0 "C9" H 3165 4796 50  0000 L CNN
+F 1 "0.01uF" H 3165 4705 50  0000 L CNN
+F 2 "" H 3088 4600 50  0001 C CNN
+F 3 "~" H 3050 4750 50  0001 C CNN
+	1    3050 4750
+	1    0    0    -1  
+$EndComp
+Connection ~ 3050 4600
+Wire Wire Line
+	3050 4600 3300 4600
+Wire Wire Line
+	3050 4900 3300 4900
+Wire Wire Line
+	3300 4900 3300 4700
+Wire Wire Line
+	3050 4900 2500 4900
+Wire Wire Line
+	2500 4900 2500 4700
+Connection ~ 3050 4900
+Wire Wire Line
+	7750 1950 9250 1950
+Wire Wire Line
+	8150 1600 8900 1600
+Wire Wire Line
+	8250 1450 9000 1450
+Wire Wire Line
+	8050 2050 9250 2050
+Wire Wire Line
+	7750 1950 7750 1600
+Connection ~ 7750 1950
+Connection ~ 7750 1600
+Wire Wire Line
+	7750 1600 7350 1600
+Wire Wire Line
+	8050 2050 8050 1450
+Connection ~ 8050 2050
+Connection ~ 8050 1450
+Wire Wire Line
+	8050 1450 7450 1450
+$Comp
+L Connector_Generic:Conn_01x02 CN16
+U 1 1 603106BF
+P 4600 300
+F 0 "CN16" V 4564 112 50  0000 R CNN
+F 1 "12V_OUT" V 4473 112 50  0000 R CNN
+F 2 "" H 4600 300 50  0001 C CNN
+F 3 "~" H 4600 300 50  0001 C CNN
+	1    4600 300 
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	4600 500  4600 1200
+Wire Wire Line
+	3900 1350 4700 1350
+Connection ~ 3900 1350
+Wire Wire Line
+	4700 500  4700 1350
+Wire Wire Line
+	4600 1200 5250 1200
+Wire Wire Line
+	5250 1200 5250 750 
+Connection ~ 4600 1200
+Connection ~ 5250 650 
+Wire Wire Line
+	5250 650  5250 550 
+Connection ~ 5250 750 
+Wire Wire Line
+	5250 750  5250 650 
+Wire Wire Line
+	4700 1350 5500 1350
+Connection ~ 4700 1350
+Connection ~ 5500 1350
+Wire Wire Line
+	2150 1200 3000 1200
+Wire Wire Line
+	2250 1350 3100 1350
 $EndSCHEMATC
