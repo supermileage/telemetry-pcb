@@ -1,4 +1,4 @@
-19084947562556919
+19089783676324616
 Battery
 BatteryHolder_Bulgin_BX0036_1xC
 Bulgin Battery Holder, BX0036, Battery Type C (https://www.bulgin.com/products/pub/media/bulgin/data/Battery_holders.pdf)
@@ -56223,6 +56223,13 @@ connector Molex Mega-Fit top entry
 0
 8
 8
+Libraries
+electron
+
+
+0
+36
+36
 Module
 A20_OLINUXINO_LIME2
 A20 Olinuxino LIME2, 1.2GHz, 512-1024MB RAM, Micro-SD, NAND or eMMC, 1000Mbit Ethernet
@@ -83040,3 +83047,17 @@ varistor SIOV
 0
 2
 2
+telemetry-pcb-lib
+Molex_Mega-Fit_20024-11212_1x02_P5.70mm_Horizontal
+Molex Mega-Fit Power Connectors, 76825-0004 (compatible alternatives: 172064-0004, 172064-1004), 2 Pins per row (http://www.molex.com/pdm_docs/sd/1720640002_sd.pdf), generated with kicad-footprint-generator
+connector Molex Mega-Fit top entry
+0
+2
+2
+telemetry-pcb-lib
+Molex_Mega-Fit_20024-11213_1x03_P5.70mm_Horizontal
+Molex Mega-Fit Power Connectors, 76825-0006 (compatible alternatives: 172064-0006, 172064-1006), 3 Pins per row (http://www.molex.com/pdm_docs/sd/1720640002_sd.pdf), generated with kicad-footprint-generator
+connector Molex Mega-Fit top entry
+0
+3
+3

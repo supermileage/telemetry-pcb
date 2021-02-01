@@ -1,0 +1,48 @@
+EESchema-LIBRARY Version 2.4
+#encoding utf-8
+#
+# Molex 70553-0001
+#
+DEF 70553-0001 J 0 0 Y Y 1 L N
+F0 "J" 0 300 50 H V L CNN 
+F1 "70553-0001" 0 400 50 H V L CNN 
+F2 "Molex-70553-0001-0-0-*" 0 500 50 H I L CNN 
+F3 "https://www.molex.com/webdocs/datasheets/pdf/en-us/0705530001_PCB_HEADERS.pdf" 0 600 50 H I L CNN 
+F4 "No" 0 700 50 H I L CNN "automotive"
+F5 "Conn" 0 800 50 H I L CNN "category"
+F6 "Gold,Nickel" 0 900 50 H I L CNN "contact material"
+F7 "3A" 0 1000 50 H I L CNN "current rating"
+F8 "Connectors" 0 1100 50 H I L CNN "device class L1"
+F9 "Headers and Wire Housings" 0 1200 50 H I L CNN "device class L2"
+F10 "unset" 0 1300 50 H I L CNN "device class L3"
+F11 "CONN HEADER R/A 2POS 2.54MM" 0 1400 50 H I L CNN "digikey description"
+F12 "WM4900-ND" 0 1500 50 H I L CNN "digikey part number"
+F13 "https://www.molex.com/pdm_docs/sd/705530001_sd.pdf" 0 1600 50 H I L CNN "footprint url"
+F14 "7.12mm" 0 1700 50 H I L CNN "height"
+F15 "yes" 0 1800 50 H I L CNN "is connector"
+F16 "yes" 0 1900 50 H I L CNN "is male"
+F17 "Yes" 0 2000 50 H I L CNN "lead free"
+F18 "d81fd43a0b067fa4" 0 2100 50 H I L CNN "library id"
+F19 "Molex" 0 2200 50 H I L CNN "manufacturer"
+F20 "538-70553-0001" 0 2300 50 H I L CNN "mouser part number"
+F21 "2" 0 2400 50 H I L CNN "number of contacts"
+F22 "1" 0 2500 50 H I L CNN "number of rows"
+F23 "HDR2" 0 2600 50 H I L CNN "package"
+F24 "2.54mm" 0 2700 50 H I L CNN "pitch"
+F25 "Yes" 0 2800 50 H I L CNN "rohs"
+F26 "0.25mm" 0 2900 50 H I L CNN "standoff height"
+F27 "+105°C" 0 3000 50 H I L CNN "temperature range high"
+F28 "-40°C" 0 3100 50 H I L CNN "temperature range low"
+F29 "250V" 0 3200 50 H I L CNN "voltage rating"
+DRAW
+X 1 1 -100 0 100 L 40 40 1 1 P 
+X 2 2 -100 -200 100 L 40 40 1 1 P 
+S -400 200 -200 -400 1 1 0 f
+S -350 20 -280 -20 1 1 0 F
+P 2 1 1 0 -270 0 -200 0 N
+S -350 -180 -280 -220 1 1 0 F
+P 2 1 1 0 -270 -200 -200 -200 N
+ENDDRAW
+ENDDEF
+#
+# End Library
