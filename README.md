@@ -1,2 +1,2 @@
 # telemetry-pcb
-Printer Circuit Board design for Telemetry module + voltage regulators for 12v and 5v rails
+Printed Circuit Board design for Telemetry module + 12v distribution + CAN distribution.
