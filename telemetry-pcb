@@ -1,0 +1,44 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <title>KiCad BOM Example 5</title>
+    </head>
+    <body>
+    <h1>/Users/silviu/github/telemetry-pcb/telemetry-pcb.sch</h1>
+    <p>Tuesday, February 02, 2021 at 03:57:06 pm</p>
+    <p>Eeschema (5.1.9-0-10_14)</p>
+    <p><b>Component Count:</b>44</p>
+    <table>
+    <tr><th style='width:640px'>Ref</th><th>Qnty</th><th>Value</th><th>Part</th><th>Footprint</th><th>Description</th><th>Vendor</th></tr>
+    <tr><td>C1, C2, C3, C4, C5, C6, C7</td><td>7</td><td>0.1uF</td><td>Device:C</td><td>Capacitor_SMD:C_0805_2012Metric</td><td>Unpolarized capacitor</td><td></td></tr>
+    <tr><td>C8, C9</td><td>2</td><td>0.01uF</td><td>Device:C</td><td>Capacitor_SMD:C_0805_2012Metric</td><td>Unpolarized capacitor</td><td></td></tr>
+    <tr><td>CN1</td><td>1</td><td>12V_IN</td><td>Connector_Generic:Conn_01x04</td><td>Connector_Molex:Molex_Mega-Fit_76825-0004_2x02_P5.70mm_Horizontal</td><td>Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)</td><td></td></tr>
+    <tr><td>CN2, CN3, CN4, CN5</td><td>4</td><td>12V_OUT</td><td>Connector_Generic:Conn_01x02</td><td>Connector_Molex:Molex_Mega-Fit_76825-0002_2x01_P5.70mm_Horizontal</td><td>Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)</td><td></td></tr>
+    <tr><td>CN6, CN7, CN8, CN9, CN10, CN11</td><td>6</td><td>CAN</td><td>Connector_Generic:Conn_01x02</td><td>Conn_Molex_70553-0001:Molex-70553-0001-0-0-MFG</td><td>Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)</td><td></td></tr>
+    <tr><td>CN12</td><td>1</td><td>ACC_12V_CAN</td><td>Connector_Generic:Conn_02x05_Counter_Clockwise</td><td>Connector_Molex:Molex_Mega-Fit_76825-0010_2x05_P5.70mm_Horizontal</td><td>Generic connector, double row, 02x05, counter clockwise pin numbering scheme (similar to DIP packge numbering), script generated (kicad-library-utils/schlib/autogen/connector/)</td><td></td></tr>
+    <tr><td>CN13</td><td>1</td><td>THERMO1</td><td>Connector_Generic:Conn_01x03</td><td>Conn_Molex_70553-0002:Molex-70553-0002-0-0-0</td><td>Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)</td><td></td></tr>
+    <tr><td>CN14</td><td>1</td><td>THERMO2</td><td>Connector_Generic:Conn_01x03</td><td>Conn_Molex_70553-0002:Molex-70553-0002-0-0-0</td><td>Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)</td><td></td></tr>
+    <tr><td>CN15</td><td>1</td><td>RS232</td><td>Connector:DB9_Male</td><td>Connector_Dsub:DSUB-9_Male_Horizontal_P2.77x2.54mm_EdgePinOffset9.40mm</td><td>9-pin male D-SUB connector</td><td></td></tr>
+    <tr><td>D1</td><td>1</td><td>1N4001</td><td>Device:D</td><td>Diode_SMD:D_SMA</td><td>Diode</td><td></td></tr>
+    <tr><td>F1</td><td>1</td><td>25A</td><td>Device:Fuse</td><td>Fuse:Fuseholder_Blade_Mini_Keystone_3568</td><td>Fuse</td><td></td></tr>
+    <tr><td>H1</td><td>1</td><td>GPS</td><td>Connector:Conn_01x09_Female</td><td>Connector_PinHeader_2.54mm:PinHeader_1x09_P2.54mm_Vertical</td><td>Generic connector, single row, 01x09, script generated (kicad-library-utils/schlib/autogen/connector/)</td><td></td></tr>
+    <tr><td>H2,H3</td><td>1</td><td>ELECTRON</td><td>telemetry-pcb-eagle-import:ELECTRON_WITH_HEADERS</td><td>Libraries:electron</td><td></td><td></td></tr>
+    <tr><td>IC1, IC2</td><td>2</td><td>MAX31855K</td><td>telemetry-pcb-eagle-import:MAX31855K</td><td>Package_SO:SOIC-8-1EP_3.9x4.9mm_P1.27mm_EP2.29x3mm</td><td></td><td></td></tr>
+    <tr><td>IC3</td><td>1</td><td>TCAN332DR</td><td>TCAN332DR:TCAN332DR</td><td>Package_SO:SOIC-8-1EP_3.9x4.9mm_P1.27mm_EP2.29x3mm</td><td></td><td></td></tr>
+    <tr><td>IC4</td><td>1</td><td>MAX3232CPWR</td><td>MAX3232CPWR:MAX3232CPWR</td><td>Package_SO:TSSOP-16_4.4x5mm_P0.65mm</td><td></td><td></td></tr>
+    <tr><td>M1, M2, M3, M4</td><td>4</td><td>MountingHole</td><td>Mechanical:MountingHole</td><td>MountingHole:MountingHole_3.2mm_M3</td><td>Mounting Hole without connection</td><td></td></tr>
+    <tr><td>R1</td><td>1</td><td>120</td><td>Device:R</td><td>Resistor_SMD:R_0805_2012Metric</td><td>Resistor</td><td></td></tr>
+    <tr><td>S1</td><td>1</td><td>CAN_TERM</td><td>Switch:SW_DIP_x01</td><td>Button_Switch_THT:SW_DIP_SPSTx01_Piano_10.8x4.1mm_W7.62mm_P2.54mm</td><td>1x DIP Switch, Single Pole Single Throw (SPST) switch, small symbol</td><td></td></tr>
+    <tr><td>T1</td><td>1</td><td>TEST_12V</td><td>Connector:Conn_01x02_Female</td><td>TestPoint:TestPoint_2Pads_Pitch2.54mm_Drill0.8mm</td><td>Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)</td><td></td></tr>
+    <tr><td>T2</td><td>1</td><td>TEST_3V3</td><td>Connector:Conn_01x02_Female</td><td>TestPoint:TestPoint_2Pads_Pitch2.54mm_Drill0.8mm</td><td>Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)</td><td></td></tr>
+    <tr><td>T3</td><td>1</td><td>TEST_CAN</td><td>Connector:Conn_01x02_Female</td><td>TestPoint:TestPoint_2Pads_Pitch2.54mm_Drill0.8mm</td><td>Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)</td><td></td></tr>
+    <tr><td>T4</td><td>1</td><td>GPIO1</td><td>Connector:Conn_01x18_Female</td><td>Connector_PinHeader_2.54mm:PinHeader_1x18_P2.54mm_Vertical</td><td>Generic connector, single row, 01x18, script generated (kicad-library-utils/schlib/autogen/connector/)</td><td></td></tr>
+    <tr><td>T5</td><td>1</td><td>GPIO2</td><td>Connector:Conn_01x18_Female</td><td>Connector_PinHeader_2.54mm:PinHeader_1x18_P2.54mm_Vertical</td><td>Generic connector, single row, 01x18, script generated (kicad-library-utils/schlib/autogen/connector/)</td><td></td></tr>
+    <tr><td>T6</td><td>1</td><td>TEST_RS232</td><td>Connector:Conn_01x02_Female</td><td>TestPoint:TestPoint_2Pads_Pitch2.54mm_Drill0.8mm</td><td>Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)</td><td></td></tr><!--TABLEROW-->
+    </table>
+    </body>
+</html>
+    

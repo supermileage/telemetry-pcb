@@ -207,10 +207,10 @@ Wire Wire Line
 Wire Wire Line
 	10100 7150 10100 5750
 $Comp
-L Connector:DB9_Male CN12
+L Connector:DB9_Male CN15
 U 1 1 600D7019
 P 10950 5650
-F 0 "CN12" H 11130 5696 50  0000 L CNN
+F 0 "CN15" H 11130 5696 50  0000 L CNN
 F 1 "RS232" H 11130 5605 50  0000 L CNN
 F 2 "Connector_Dsub:DSUB-9_Male_Horizontal_P2.77x2.54mm_EdgePinOffset9.40mm" H 10950 5650 50  0001 C CNN
 F 3 " ~" H 10950 5650 50  0001 C CNN
@@ -599,28 +599,10 @@ Wire Wire Line
 Wire Wire Line
 	4950 2500 5700 2500
 Wire Wire Line
-	5250 550  5750 550 
-Wire Wire Line
-	6500 1600 6500 850 
-Wire Wire Line
-	6500 850  6250 850 
-Wire Wire Line
-	6500 850  6500 650 
-Wire Wire Line
-	6500 650  6250 650 
-Connection ~ 6500 850 
-Wire Wire Line
 	8050 2750 8050 2050
-Wire Wire Line
-	6650 1450 6650 750 
-Wire Wire Line
-	6650 750  6250 750 
 Connection ~ 8050 2750
 Wire Wire Line
-	6650 750  6650 550 
-Wire Wire Line
 	6650 550  6250 550 
-Connection ~ 6650 750 
 $Comp
 L Connector_Generic:Conn_01x02 CN3
 U 1 1 6039FF98
@@ -649,7 +631,7 @@ U 1 1 603FD405
 P 7350 300
 F 0 "CN6" V 7314 112 50  0000 R CNN
 F 1 "CAN" V 7223 112 50  0000 R CNN
-F 2 "" H 7350 300 50  0001 C CNN
+F 2 "Conn_Molex_70553-0001:Molex-70553-0001-0-0-MFG" H 7350 300 50  0001 C CNN
 F 3 "~" H 7350 300 50  0001 C CNN
 	1    7350 300 
 	0    -1   -1   0   
@@ -660,7 +642,7 @@ U 1 1 603FEC33
 P 8150 300
 F 0 "CN7" V 8114 112 50  0000 R CNN
 F 1 "CAN" V 8023 112 50  0000 R CNN
-F 2 "" H 8150 300 50  0001 C CNN
+F 2 "Conn_Molex_70553-0001:Molex-70553-0001-0-0-MFG" H 8150 300 50  0001 C CNN
 F 3 "~" H 8150 300 50  0001 C CNN
 	1    8150 300 
 	0    -1   -1   0   
@@ -671,7 +653,7 @@ U 1 1 603FF405
 P 8900 300
 F 0 "CN8" V 8864 112 50  0000 R CNN
 F 1 "CAN" V 8773 112 50  0000 R CNN
-F 2 "" H 8900 300 50  0001 C CNN
+F 2 "Conn_Molex_70553-0001:Molex-70553-0001-0-0-MFG" H 8900 300 50  0001 C CNN
 F 3 "~" H 8900 300 50  0001 C CNN
 	1    8900 300 
 	0    -1   -1   0   
@@ -682,7 +664,7 @@ U 1 1 603FFABA
 P 9650 300
 F 0 "CN9" V 9614 112 50  0000 R CNN
 F 1 "CAN" V 9523 112 50  0000 R CNN
-F 2 "" H 9650 300 50  0001 C CNN
+F 2 "Conn_Molex_70553-0001:Molex-70553-0001-0-0-MFG" H 9650 300 50  0001 C CNN
 F 3 "~" H 9650 300 50  0001 C CNN
 	1    9650 300 
 	0    -1   -1   0   
@@ -736,19 +718,9 @@ Wire Wire Line
 	1300 700  1400 700 
 Wire Wire Line
 	1300 500  1300 700 
-Wire Wire Line
-	2150 500  2150 1200
-Wire Wire Line
-	3000 500  3000 1200
-Connection ~ 2150 1200
-Wire Wire Line
-	2250 1350 2250 500 
 Connection ~ 1600 1350
 Wire Wire Line
 	1600 1350 1600 1500
-Wire Wire Line
-	3100 1350 3100 500 
-Connection ~ 2250 1350
 $Comp
 L Connector:Conn_01x02_Female T3
 U 1 1 6059D0BA
@@ -879,45 +851,34 @@ $EndComp
 Wire Wire Line
 	4950 1900 4950 2050
 $Comp
-L Connector_Generic:Conn_02x05_Counter_Clockwise CN5
+L Connector_Generic:Conn_02x05_Counter_Clockwise CN12
 U 1 1 601BCF89
 P 5950 750
-F 0 "CN5" H 6000 1167 50  0000 C CNN
+F 0 "CN12" H 6000 1167 50  0000 C CNN
 F 1 "ACC_12V_CAN" H 6000 1076 50  0000 C CNN
 F 2 "Connector_Molex:Molex_Mega-Fit_76825-0010_2x05_P5.70mm_Horizontal" H 5950 750 50  0001 C CNN
 F 3 "~" H 5950 750 50  0001 C CNN
 	1    5950 750 
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	5250 650  5750 650 
-Wire Wire Line
-	5250 750  5750 750 
-Wire Wire Line
-	5500 850  5750 850 
-Wire Wire Line
-	5500 950  5750 950 
-Connection ~ 5500 950 
-Wire Wire Line
-	5500 950  5500 850 
 $Comp
-L Connector_Generic:Conn_01x02 CN13
+L Connector_Generic:Conn_01x02 CN10
 U 1 1 6024B164
 P 10350 300
-F 0 "CN13" V 10314 112 50  0000 R CNN
+F 0 "CN10" V 10314 112 50  0000 R CNN
 F 1 "CAN" V 10223 112 50  0000 R CNN
-F 2 "" H 10350 300 50  0001 C CNN
+F 2 "Conn_Molex_70553-0001:Molex-70553-0001-0-0-MFG" H 10350 300 50  0001 C CNN
 F 3 "~" H 10350 300 50  0001 C CNN
 	1    10350 300 
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Connector_Generic:Conn_01x02 CN14
+L Connector_Generic:Conn_01x02 CN11
 U 1 1 6024BB8E
 P 11000 300
-F 0 "CN14" V 10964 112 50  0000 R CNN
+F 0 "CN11" V 10964 112 50  0000 R CNN
 F 1 "CAN" V 10873 112 50  0000 R CNN
-F 2 "" H 11000 300 50  0001 C CNN
+F 2 "Conn_Molex_70553-0001:Molex-70553-0001-0-0-MFG" H 11000 300 50  0001 C CNN
 F 3 "~" H 11000 300 50  0001 C CNN
 	1    11000 300 
 	0    -1   -1   0   
@@ -954,24 +915,16 @@ F 3 "~" H 1200 300 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Connector_Generic:Conn_01x02 CN15
+L Connector_Generic:Conn_01x02 CN4
 U 1 1 6035BAD8
 P 3800 300
-F 0 "CN15" V 3764 112 50  0000 R CNN
+F 0 "CN4" V 3764 112 50  0000 R CNN
 F 1 "12V_OUT" V 3673 112 50  0000 R CNN
 F 2 "Connector_Molex:Molex_Mega-Fit_76825-0002_2x01_P5.70mm_Horizontal" H 3800 300 50  0001 C CNN
 F 3 "~" H 3800 300 50  0001 C CNN
 	1    3800 300 
 	0    -1   -1   0   
 $EndComp
-Wire Wire Line
-	3000 1200 3800 1200
-Wire Wire Line
-	3800 1200 3800 500 
-Connection ~ 3000 1200
-Wire Wire Line
-	3100 1350 3900 1350
-Connection ~ 3100 1350
 NoConn ~ 10650 5250
 NoConn ~ 10650 5350
 NoConn ~ 10650 5450
@@ -1216,17 +1169,6 @@ F 3 "~" H 4950 2500 50  0001 C CNN
 $EndComp
 Connection ~ 4950 2500
 Wire Wire Line
-	3900 500  3900 1350
-Wire Wire Line
-	5500 950  5500 1350
-Wire Wire Line
-	6250 1350 5500 1350
-Wire Wire Line
-	6250 950  6250 1350
-Wire Wire Line
-	3800 1200 4600 1200
-Connection ~ 3800 1200
-Wire Wire Line
 	3000 5500 3000 6200
 Wire Wire Line
 	3300 5700 3050 5700
@@ -1250,8 +1192,6 @@ Wire Wire Line
 	3300 6000 3300 5800
 Wire Wire Line
 	3050 6000 2500 6000
-Wire Wire Line
-	2500 6000 2500 5800
 Connection ~ 3050 6000
 $Comp
 L Device:C C9
@@ -1273,8 +1213,6 @@ Wire Wire Line
 	3300 4900 3300 4700
 Wire Wire Line
 	3050 4900 2500 4900
-Wire Wire Line
-	2500 4900 2500 4700
 Connection ~ 3050 4900
 Wire Wire Line
 	7750 1950 9250 1950
@@ -1297,38 +1235,16 @@ Connection ~ 8050 1450
 Wire Wire Line
 	8050 1450 7450 1450
 $Comp
-L Connector_Generic:Conn_01x02 CN16
+L Connector_Generic:Conn_01x02 CN5
 U 1 1 603106BF
 P 4600 300
-F 0 "CN16" V 4564 112 50  0000 R CNN
+F 0 "CN5" V 4564 112 50  0000 R CNN
 F 1 "12V_OUT" V 4473 112 50  0000 R CNN
 F 2 "Connector_Molex:Molex_Mega-Fit_76825-0002_2x01_P5.70mm_Horizontal" H 4600 300 50  0001 C CNN
 F 3 "~" H 4600 300 50  0001 C CNN
 	1    4600 300 
 	0    -1   -1   0   
 $EndComp
-Wire Wire Line
-	4600 500  4600 1200
-Wire Wire Line
-	3900 1350 4700 1350
-Connection ~ 3900 1350
-Wire Wire Line
-	4700 500  4700 1350
-Wire Wire Line
-	4600 1200 5250 1200
-Wire Wire Line
-	5250 1200 5250 750 
-Connection ~ 4600 1200
-Connection ~ 5250 650 
-Wire Wire Line
-	5250 650  5250 550 
-Connection ~ 5250 750 
-Wire Wire Line
-	5250 750  5250 650 
-Wire Wire Line
-	4700 1350 5500 1350
-Connection ~ 4700 1350
-Connection ~ 5500 1350
 Wire Wire Line
 	1400 500  1400 600 
 $Comp
@@ -1389,23 +1305,12 @@ F 3 "~" H 400 2600 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector_Generic:Conn_01x02 CN10
-U 1 1 60178289
-P 2300 4700
-F 0 "CN10" V 2264 4512 50  0000 R CNN
-F 1 "THERMO1" V 2173 4512 50  0000 R CNN
-F 2 "" H 2300 4700 50  0001 C CNN
-F 3 "~" H 2300 4700 50  0001 C CNN
-	1    2300 4700
-	-1   0    0    1   
-$EndComp
-$Comp
-L Connector_Generic:Conn_01x02 CN11
+L Connector_Generic:Conn_01x03 CN14
 U 1 1 601BC25C
 P 2300 5800
-F 0 "CN11" V 2264 5612 50  0000 R CNN
+F 0 "CN14" V 2264 5612 50  0000 R CNN
 F 1 "THERMO2" V 2173 5612 50  0000 R CNN
-F 2 "" H 2300 5800 50  0001 C CNN
+F 2 "Conn_Molex_70553-0002:Molex-70553-0002-0-0-0" H 2300 5800 50  0001 C CNN
 F 3 "~" H 2300 5800 50  0001 C CNN
 	1    2300 5800
 	-1   0    0    1   
@@ -1421,8 +1326,6 @@ Connection ~ 1200 1350
 Wire Wire Line
 	1100 500  1100 600 
 Wire Wire Line
-	1600 1350 2250 1350
-Wire Wire Line
 	750  1350 1100 1350
 Connection ~ 1100 1350
 Wire Wire Line
@@ -1430,13 +1333,9 @@ Wire Wire Line
 Wire Wire Line
 	750  1200 1400 1200
 Connection ~ 1400 1200
-Wire Wire Line
-	2250 1350 3100 1350
 Connection ~ 1400 600 
 Wire Wire Line
 	1400 600  1400 700 
-Wire Wire Line
-	2150 1200 3000 1200
 Connection ~ 1100 600 
 Wire Wire Line
 	1100 600  1100 1350
@@ -1446,5 +1345,104 @@ Wire Wire Line
 	1850 1100 1850 1200
 Connection ~ 1850 1200
 Wire Wire Line
-	1850 1200 2150 1200
+	2500 4800 2500 4900
+Wire Wire Line
+	2500 5900 2500 6000
+NoConn ~ 2500 4700
+NoConn ~ 2500 5800
+$Comp
+L Connector_Generic:Conn_01x03 CN13
+U 1 1 60178289
+P 2300 4700
+F 0 "CN13" V 2264 4512 50  0000 R CNN
+F 1 "THERMO1" V 2173 4512 50  0000 R CNN
+F 2 "Conn_Molex_70553-0002:Molex-70553-0002-0-0-0" H 2300 4700 50  0001 C CNN
+F 3 "~" H 2300 4700 50  0001 C CNN
+	1    2300 4700
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	6650 550  6650 1450
+Wire Wire Line
+	6500 1600 6500 650 
+Wire Wire Line
+	6500 650  6250 650 
+Wire Wire Line
+	6500 1600 5650 1600
+Wire Wire Line
+	5650 1600 5650 850 
+Wire Wire Line
+	5650 850  5750 850 
+Connection ~ 6500 1600
+Wire Wire Line
+	6650 1450 5750 1450
+Wire Wire Line
+	5750 1450 5750 950 
+Connection ~ 6650 1450
+Wire Wire Line
+	1600 1350 2150 1350
+Wire Wire Line
+	1850 1200 2250 1200
+Wire Wire Line
+	2150 500  2150 1350
+Connection ~ 2150 1350
+Wire Wire Line
+	2150 1350 3000 1350
+Wire Wire Line
+	2250 500  2250 1200
+Connection ~ 2250 1200
+Wire Wire Line
+	2250 1200 3100 1200
+Wire Wire Line
+	3000 500  3000 1350
+Connection ~ 3000 1350
+Wire Wire Line
+	3000 1350 3800 1350
+Wire Wire Line
+	3100 500  3100 1200
+Connection ~ 3100 1200
+Wire Wire Line
+	3100 1200 3900 1200
+Wire Wire Line
+	3800 500  3800 1350
+Connection ~ 3800 1350
+Wire Wire Line
+	3800 1350 4600 1350
+Wire Wire Line
+	3900 500  3900 1200
+Connection ~ 3900 1200
+Wire Wire Line
+	3900 1200 4700 1200
+Wire Wire Line
+	4600 500  4600 1350
+Connection ~ 4600 1350
+Wire Wire Line
+	4700 500  4700 1200
+Connection ~ 4700 1200
+Wire Wire Line
+	4600 1350 5550 1350
+Wire Wire Line
+	4700 1200 6250 1200
+Wire Wire Line
+	6250 1200 6250 950 
+Wire Wire Line
+	6250 850  6250 750 
+Wire Wire Line
+	6250 850  6250 950 
+Connection ~ 6250 850 
+Connection ~ 6250 950 
+Wire Wire Line
+	5550 1350 5550 750 
+Wire Wire Line
+	5550 750  5750 750 
+Wire Wire Line
+	5550 750  5550 650 
+Wire Wire Line
+	5550 550  5750 550 
+Connection ~ 5550 750 
+Wire Wire Line
+	5750 650  5550 650 
+Connection ~ 5550 650 
+Wire Wire Line
+	5550 650  5550 550 
 $EndSCHEMATC
