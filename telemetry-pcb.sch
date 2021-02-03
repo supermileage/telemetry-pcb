@@ -1079,13 +1079,13 @@ $EndComp
 $Comp
 L power:PWR_FLAG #FLG0101
 U 1 1 6065A11D
-P 1400 600
-F 0 "#FLG0101" H 1400 675 50  0001 C CNN
-F 1 "PWR_FLAG" V 1400 727 50  0000 L CNN
-F 2 "" H 1400 600 50  0001 C CNN
-F 3 "~" H 1400 600 50  0001 C CNN
-	1    1400 600 
-	0    1    1    0   
+P 1700 1200
+F 0 "#FLG0101" H 1700 1275 50  0001 C CNN
+F 1 "PWR_FLAG" V 1700 1327 50  0000 L CNN
+F 2 "" H 1700 1200 50  0001 C CNN
+F 3 "~" H 1700 1200 50  0001 C CNN
+	1    1700 1200
+	1    0    0    -1  
 $EndComp
 $Comp
 L power:PWR_FLAG #FLG0102
@@ -1245,8 +1245,6 @@ F 3 "~" H 4600 300 50  0001 C CNN
 	1    4600 300 
 	0    -1   -1   0   
 $EndComp
-Wire Wire Line
-	1400 500  1400 600 
 $Comp
 L Mechanical:MountingHole M2
 U 1 1 601D8B81
@@ -1291,8 +1289,6 @@ F 3 "" H 400 3900 50  0001 C CNN
 	1    400  3900
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	400  2600 400  3900
 $Comp
 L Mechanical:MountingHole M1
 U 1 1 601D8B23
@@ -1333,14 +1329,11 @@ Wire Wire Line
 Wire Wire Line
 	750  1200 1400 1200
 Connection ~ 1400 1200
-Connection ~ 1400 600 
-Wire Wire Line
-	1400 600  1400 700 
 Connection ~ 1100 600 
 Wire Wire Line
 	1100 600  1100 1350
 Wire Wire Line
-	1400 1200 1850 1200
+	1400 1200 1700 1200
 Wire Wire Line
 	1850 1100 1850 1200
 Connection ~ 1850 1200
@@ -1445,4 +1438,11 @@ Wire Wire Line
 Connection ~ 5550 650 
 Wire Wire Line
 	5550 650  5550 550 
+Connection ~ 1700 1200
+Wire Wire Line
+	1700 1200 1850 1200
+Wire Wire Line
+	1400 500  1400 700 
+Wire Wire Line
+	400  2600 400  3900
 $EndSCHEMATC
