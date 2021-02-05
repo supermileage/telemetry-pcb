@@ -816,17 +816,6 @@ Wire Wire Line
 	2750 5100 2750 5500
 Wire Wire Line
 	2750 5500 3000 5500
-$Comp
-L telemetry-pcb-eagle-import:ELECTRON_WITH_HEADERS H2,H3
-U 1 1 4D826FCC
-P 6400 4200
-F 0 "H2,H3" H 6400 4050 50  0000 C CNN
-F 1 "ELECTRON" H 6400 4350 50  0000 C CNN
-F 2 "Libraries:electron" H 6400 4200 50  0001 C CNN
-F 3 "" H 6400 4200 50  0001 C CNN
-	1    6400 4200
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	4300 5800 5400 5800
 Wire Wire Line
@@ -855,7 +844,7 @@ L Connector_Generic:Conn_02x05_Counter_Clockwise CN12
 U 1 1 601BCF89
 P 5950 750
 F 0 "CN12" H 6000 1167 50  0000 C CNN
-F 1 "ACC_12V_CAN" H 6000 1076 50  0000 C CNN
+F 1 "CAN_12V_OUT" H 6000 1076 50  0000 C CNN
 F 2 "Connector_Molex:Molex_Mega-Fit_76825-0010_2x05_P5.70mm_Horizontal" H 5950 750 50  0001 C CNN
 F 3 "~" H 5950 750 50  0001 C CNN
 	1    5950 750 
@@ -1289,8 +1278,6 @@ F 3 "" H 400 3900 50  0001 C CNN
 	1    400  3900
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	400  2600 400  3900
 $Comp
 L Mechanical:MountingHole M1
 U 1 1 601D8B23
@@ -1445,4 +1432,17 @@ Wire Wire Line
 	1700 1200 1850 1200
 Wire Wire Line
 	1400 500  1400 700 
+Wire Wire Line
+	400  2600 400  3900
+$Comp
+L telemetry-pcb-eagle-import:ELECTRON_WITH_HEADERS H2,H3
+U 1 1 4D826FCC
+P 6400 4200
+F 0 "H2,H3" H 6400 4050 50  0000 C CNN
+F 1 "ELECTRON" H 6400 4350 50  0000 C CNN
+F 2 "Libraries:electron" H 6400 4200 50  0001 C CNN
+F 3 "" H 6400 4200 50  0001 C CNN
+	1    6400 4200
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC

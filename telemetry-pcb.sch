@@ -456,17 +456,6 @@ Text Label 5750 6450 0    50   ~ 0
 TX
 Text Label 5750 6250 0    50   ~ 0
 VIN
-$Comp
-L Connector:Conn_01x18_Female T4
-U 1 1 601E1414
-P 6100 7050
-F 0 "T4" H 6128 7026 50  0000 L CNN
-F 1 "GPIO1" H 6128 6935 50  0000 L CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x18_P2.54mm_Vertical" H 6100 7050 50  0001 C CNN
-F 3 "~" H 6100 7050 50  0001 C CNN
-	1    6100 7050
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	5900 6250 5750 6250
 Wire Wire Line
@@ -503,17 +492,6 @@ Wire Wire Line
 	5900 7850 5750 7850
 Wire Wire Line
 	5900 7950 5750 7950
-$Comp
-L Connector:Conn_01x18_Female T5
-U 1 1 60259DFD
-P 6900 7050
-F 0 "T5" H 6928 7026 50  0000 L CNN
-F 1 "GPIO2" H 6928 6935 50  0000 L CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x18_P2.54mm_Vertical" H 6900 7050 50  0001 C CNN
-F 3 "~" H 6900 7050 50  0001 C CNN
-	1    6900 7050
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	6700 6250 6550 6250
 Wire Wire Line
@@ -816,17 +794,6 @@ Wire Wire Line
 	2750 5100 2750 5500
 Wire Wire Line
 	2750 5500 3000 5500
-$Comp
-L telemetry-pcb-eagle-import:ELECTRON_WITH_HEADERS H2,H3
-U 1 1 4D826FCC
-P 6400 4200
-F 0 "H2,H3" H 6400 4050 50  0000 C CNN
-F 1 "ELECTRON" H 6400 4350 50  0000 C CNN
-F 2 "Libraries:electron" H 6400 4200 50  0001 C CNN
-F 3 "" H 6400 4200 50  0001 C CNN
-	1    6400 4200
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	4300 5800 5400 5800
 Wire Wire Line
@@ -855,7 +822,7 @@ L Connector_Generic:Conn_02x05_Counter_Clockwise CN12
 U 1 1 601BCF89
 P 5950 750
 F 0 "CN12" H 6000 1167 50  0000 C CNN
-F 1 "ACC_12V_CAN" H 6000 1076 50  0000 C CNN
+F 1 "CAN_12V_OUT" H 6000 1076 50  0000 C CNN
 F 2 "Connector_Molex:Molex_Mega-Fit_76825-0010_2x05_P5.70mm_Horizontal" H 5950 750 50  0001 C CNN
 F 3 "~" H 5950 750 50  0001 C CNN
 	1    5950 750 
@@ -1445,4 +1412,37 @@ Wire Wire Line
 	1400 500  1400 700 
 Wire Wire Line
 	400  2600 400  3900
+$Comp
+L telemetry-pcb-eagle-import:ELECTRON_WITH_HEADERS H2,H3
+U 1 1 4D826FCC
+P 6400 4200
+F 0 "H2,H3" H 6400 4050 50  0000 C CNN
+F 1 "ELECTRON" H 6400 4350 50  0000 C CNN
+F 2 "Libraries:electron" H 6400 4200 50  0001 C CNN
+F 3 "" H 6400 4200 50  0001 C CNN
+	1    6400 4200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:Conn_01x18_Female T5
+U 1 1 60259DFD
+P 6900 7050
+F 0 "T5" H 6928 7026 50  0000 L CNN
+F 1 "GPIO2" H 6928 6935 50  0000 L CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x18_P2.54mm_Vertical" H 6900 7050 50  0001 C CNN
+F 3 "~" H 6900 7050 50  0001 C CNN
+	1    6900 7050
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:Conn_01x18_Female T4
+U 1 1 601E1414
+P 6100 7050
+F 0 "T4" H 6128 7026 50  0000 L CNN
+F 1 "GPIO1" H 6128 6935 50  0000 L CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x18_P2.54mm_Vertical" H 6100 7050 50  0001 C CNN
+F 3 "~" H 6100 7050 50  0001 C CNN
+	1    6100 7050
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
