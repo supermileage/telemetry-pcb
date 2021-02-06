@@ -788,7 +788,7 @@
     (fp_text reference IC4 (at 0.001274 0.00528 90) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value MAX3232CPWR (at 0 3.45 90) (layer F.SilkS)
+    (fp_text value MAX3232CPWR (at 0.762 3.45 90) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_line (start 1.765 2.5) (end -1.765 2.5) (layer F.SilkS) (width 0.127))
@@ -1940,7 +1940,7 @@
     (tags capacitor)
     (path /600DBC24)
     (attr smd)
-    (fp_text reference C6 (at 0 -1.68) (layer F.SilkS) hide
+    (fp_text reference C6 (at 0 -1.68) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text value 0.1uF (at 0 1.68) (layer F.SilkS)
@@ -1976,7 +1976,7 @@
     (tags capacitor)
     (path /600DB4F4)
     (attr smd)
-    (fp_text reference C5 (at 0 -1.68) (layer F.SilkS) hide
+    (fp_text reference C5 (at 0 1.778) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text value 0.1uF (at 0 -1.905) (layer F.SilkS)
