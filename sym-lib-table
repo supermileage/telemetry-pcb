@@ -3,5 +3,5 @@
   (lib (name telemetry-pcb-cache)(type Legacy)(uri ${KIPRJMOD}/Libraries/telemetry-pcb-cache.lib)(options "")(descr ""))
   (lib (name MAX3232CPWR)(type Legacy)(uri ${KIPRJMOD}/Libraries/MAX3232CPWR.lib)(options "")(descr ""))
   (lib (name TCAN332DR)(type Legacy)(uri ${KIPRJMOD}/Libraries/TCAN332DR.lib)(options "")(descr ""))
-  (lib (name telemetry-pcb-rescue)(type Legacy)(uri ${KIPRJMOD}/telemetry-pcb-rescue.lib)(options "")(descr ""))
+  (lib (name particle)(type Legacy)(uri ${KIPRJMOD}/Libraries/particle.lib)(options "")(descr ""))
 )
