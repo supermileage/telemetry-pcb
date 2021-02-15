@@ -1,4 +1,4 @@
-19101054790896164
+19104281769380164
 Battery
 BatteryHolder_Bulgin_BX0036_1xC
 Bulgin Battery Holder, BX0036, Battery Type C (https://www.bulgin.com/products/pub/media/bulgin/data/Battery_holders.pdf)
@@ -17558,6 +17558,13 @@ connector Molex KK-396 vertical
 Connector_Molex
 Molex_Mega-Fit_76825-0002_2x01_P5.70mm_Horizontal
 Molex Mega-Fit Power Connectors, 76825-0002 (compatible alternatives: 172064-0002, 172064-1002), 1 Pins per row (http://www.molex.com/pdm_docs/sd/1720640002_sd.pdf), generated with kicad-footprint-generator
+connector Molex Mega-Fit top entry
+0
+2
+2
+Connector_Molex
+Molex_Mega-Fit_76825-0004_1x02_P5.70mm_Horizontal
+Molex Mega-Fit Power Connectors, 76825-0004 (compatible alternatives: 172064-0004, 172064-1004), 2 Pins per row (http://www.molex.com/pdm_docs/sd/1720640002_sd.pdf), generated with kicad-footprint-generator
 connector Molex Mega-Fit top entry
 0
 2
@@ -56258,6 +56265,13 @@ connector Molex Mega-Fit top entry
 0
 8
 8
+Libraries
+PCB_FeatherWing
+
+
+0
+28
+28
 Libraries
 SOIC127P599X175-8N
 
