@@ -867,25 +867,7 @@ F 3 "" H 1650 6150 50  0001 L BNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	400  5950 400  7350
-Wire Wire Line
-	2950 5750 2950 7150
-Wire Wire Line
-	2350 5750 2950 5750
-Wire Wire Line
-	2950 7150 3150 7150
-Wire Wire Line
-	3150 7150 3150 6450
-Connection ~ 3150 7150
-Wire Wire Line
-	3150 7150 3500 7150
-Wire Wire Line
-	400  7350 3250 7350
-Wire Wire Line
-	3250 6450 3250 7350
-Connection ~ 3250 7350
-Wire Wire Line
-	3250 7350 3500 7350
+	400  5950 400  7150
 Wire Wire Line
 	2350 5950 2650 5950
 Text Label 2550 5950 0    50   ~ 0
@@ -899,11 +881,11 @@ TX
 Text Label 3800 4650 0    50   ~ 0
 TX
 Text Label 3800 4350 0    50   ~ 0
-MI0
+MI
 Text Label 3800 4200 0    50   ~ 0
-MO0
+MO
 Text Label 3800 4050 0    50   ~ 0
-SCK0
+SCK
 Wire Wire Line
 	3000 2900 3200 2900
 Text Label 3050 2900 0    50   ~ 0
@@ -1333,10 +1315,6 @@ F 3 "" H 8150 4250 50  0001 C CNN
 	1    8150 4250
 	1    0    0    -1  
 $EndComp
-NoConn ~ 9100 4300
-NoConn ~ 9100 4400
-NoConn ~ 9100 4500
-NoConn ~ 9100 4600
 Wire Wire Line
 	6950 4500 7350 4500
 Wire Wire Line
@@ -1463,11 +1441,11 @@ A4
 Text Label 9250 4200 0    50   ~ 0
 A5
 Text Label 9250 4300 0    50   ~ 0
-SCK0
+SCK
 Text Label 9250 4400 0    50   ~ 0
-MO0
+MO
 Text Label 9250 4500 0    50   ~ 0
-MI0
+MI
 Text Label 9250 4600 0    50   ~ 0
 RX
 Text Label 9250 4700 0    50   ~ 0
@@ -1553,4 +1531,24 @@ F 3 "" H 4750 3800 50  0001 C CNN
 	1    5450 3600
 	1    0    0    -1  
 $EndComp
+Wire Wire Line
+	400  7150 3250 7150
+Wire Wire Line
+	3250 7150 3250 6450
+Connection ~ 3250 7150
+Wire Wire Line
+	3250 7150 3500 7150
+Wire Wire Line
+	3150 7350 3150 6600
+Wire Wire Line
+	3150 7350 3500 7350
+Wire Wire Line
+	3150 6600 2800 6600
+Wire Wire Line
+	2800 6600 2800 5750
+Wire Wire Line
+	2800 5750 2350 5750
+Connection ~ 3150 6600
+Wire Wire Line
+	3150 6600 3150 6450
 $EndSCHEMATC
