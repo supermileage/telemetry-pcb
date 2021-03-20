@@ -1290,10 +1290,10 @@ $EndComp
 Wire Wire Line
 	6950 3150 7700 3150
 $Comp
-L Connector_Generic:Conn_01x08 H3,H4
+L Connector_Generic:Conn_01x08 H3
 U 1 1 602E3E90
 P 8600 4350
-F 0 "H3,H4" H 8680 4342 50  0000 L CNN
+F 0 "H3" H 8680 4342 50  0000 L CNN
 F 1 "GPS" H 8680 4251 50  0000 L CNN
 F 2 "Connector_PinSocket_2.54mm:PinSocket_1x08_P2.54mm_Vertical" H 8600 4350 50  0001 C CNN
 F 3 "~" H 8600 4350 50  0001 C CNN

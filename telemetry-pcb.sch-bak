@@ -881,11 +881,11 @@ TX
 Text Label 3800 4650 0    50   ~ 0
 TX
 Text Label 3800 4350 0    50   ~ 0
-MI0
+MI
 Text Label 3800 4200 0    50   ~ 0
-MO0
+MO
 Text Label 3800 4050 0    50   ~ 0
-SCK0
+SCK
 Wire Wire Line
 	3000 2900 3200 2900
 Text Label 3050 2900 0    50   ~ 0
@@ -1315,10 +1315,6 @@ F 3 "" H 8150 4250 50  0001 C CNN
 	1    8150 4250
 	1    0    0    -1  
 $EndComp
-NoConn ~ 9100 4300
-NoConn ~ 9100 4400
-NoConn ~ 9100 4500
-NoConn ~ 9100 4600
 Wire Wire Line
 	6950 4500 7350 4500
 Wire Wire Line
@@ -1445,11 +1441,11 @@ A4
 Text Label 9250 4200 0    50   ~ 0
 A5
 Text Label 9250 4300 0    50   ~ 0
-SCK0
+SCK
 Text Label 9250 4400 0    50   ~ 0
-MO0
+MO
 Text Label 9250 4500 0    50   ~ 0
-MI0
+MI
 Text Label 9250 4600 0    50   ~ 0
 RX
 Text Label 9250 4700 0    50   ~ 0
