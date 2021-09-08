@@ -249,16 +249,16 @@ Wire Wire Line
 $Comp
 L Device:D D1
 U 1 1 6012F3AA
-P 8350 2650
-F 0 "D1" V 8396 2570 50  0000 R CNN
-F 1 "1A 50v" V 8305 2570 50  0000 R CNN
-F 2 "Diode_SMD:D_SMA" H 8350 2650 50  0001 C CNN
-F 3 "~" H 8350 2650 50  0001 C CNN
-	1    8350 2650
+P 8350 2400
+F 0 "D1" V 8396 2320 50  0000 R CNN
+F 1 "1A 50v" V 8305 2320 50  0000 R CNN
+F 2 "Diode_SMD:D_SMA" H 8350 2400 50  0001 C CNN
+F 3 "~" H 8350 2400 50  0001 C CNN
+	1    8350 2400
 	0    -1   -1   0   
 $EndComp
 Wire Wire Line
-	8350 2350 8350 2500
+	8350 2100 8350 2250
 $Comp
 L Connector_Generic:Conn_02x05_Counter_Clockwise CN12
 U 1 1 601BCF89
@@ -335,12 +335,12 @@ $EndComp
 $Comp
 L power:+12V #PWR0101
 U 1 1 60515DC7
-P 8350 2350
-F 0 "#PWR0101" H 8350 2200 50  0001 C CNN
-F 1 "+12V" H 8365 2523 50  0000 C CNN
-F 2 "" H 8350 2350 50  0001 C CNN
-F 3 "" H 8350 2350 50  0001 C CNN
-	1    8350 2350
+P 8350 2100
+F 0 "#PWR0101" H 8350 1950 50  0001 C CNN
+F 1 "+12V" H 8365 2273 50  0000 C CNN
+F 2 "" H 8350 2100 50  0001 C CNN
+F 3 "" H 8350 2100 50  0001 C CNN
+	1    8350 2100
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -1265,10 +1265,6 @@ Wire Wire Line
 Wire Wire Line
 	4000 3750 3800 3750
 Wire Wire Line
-	4000 3600 3800 3600
-Wire Wire Line
-	4000 3450 3800 3450
-Wire Wire Line
 	4000 3300 3800 3300
 Wire Wire Line
 	4000 3150 3800 3150
@@ -1289,190 +1285,51 @@ F 3 "~" H 7700 3350 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	6950 3150 7700 3150
-$Comp
-L Connector_Generic:Conn_01x08 H3
-U 1 1 602E3E90
-P 8600 4350
-F 0 "H3" H 8680 4342 50  0000 L CNN
-F 1 "GPS" H 8680 4251 50  0000 L CNN
-F 2 "Connector_PinSocket_2.54mm:PinSocket_1x08_P2.54mm_Vertical" H 8600 4350 50  0001 C CNN
-F 3 "~" H 8600 4350 50  0001 C CNN
-	1    8600 4350
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	8400 4550 8150 4550
-Wire Wire Line
-	8150 4550 8150 4250
-$Comp
-L power:+3V3 #PWR0115
-U 1 1 60301B8B
-P 8150 4250
-F 0 "#PWR0115" H 8150 4100 50  0001 C CNN
-F 1 "+3V3" H 8165 4423 50  0000 C CNN
-F 2 "" H 8150 4250 50  0001 C CNN
-F 3 "" H 8150 4250 50  0001 C CNN
-	1    8150 4250
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	6950 4500 7350 4500
 Wire Wire Line
-	6950 4650 8400 4650
-Wire Wire Line
-	8400 4750 7350 4750
-Wire Wire Line
 	7350 4750 7350 4500
-Wire Wire Line
-	8400 4450 7700 4450
 Connection ~ 7700 4450
 Wire Wire Line
 	7700 4450 7700 5150
 $Comp
-L Connector_Generic:Conn_01x15 T4
-U 1 1 603BA196
-P 9650 4000
-F 0 "T4" H 9730 4042 50  0000 L CNN
-F 1 "GPIO_L" H 9730 3951 50  0000 L CNN
-F 2 "Connector_PinSocket_2.54mm:PinSocket_1x15_P2.54mm_Vertical" H 9650 4000 50  0001 C CNN
-F 3 "~" H 9650 4000 50  0001 C CNN
-	1    9650 4000
-	1    0    0    -1  
-$EndComp
-$Comp
 L Connector_Generic:Conn_01x12 T5
 U 1 1 603BCCF9
-P 10200 4200
-F 0 "T5" H 10118 4917 50  0000 C CNN
-F 1 "GPIO_R" H 10118 4826 50  0000 C CNN
-F 2 "Connector_PinSocket_2.54mm:PinSocket_1x12_P2.54mm_Vertical" H 10200 4200 50  0001 C CNN
-F 3 "~" H 10200 4200 50  0001 C CNN
-	1    10200 4200
+P 10200 3550
+F 0 "T5" H 10118 4267 50  0000 C CNN
+F 1 "GPIO_R" H 10118 4176 50  0000 C CNN
+F 2 "Connector_PinSocket_2.54mm:PinSocket_1x12_P2.54mm_Vertical" H 10200 3550 50  0001 C CNN
+F 3 "~" H 10200 3550 50  0001 C CNN
+	1    10200 3550
 	-1   0    0    -1  
 $EndComp
 Wire Wire Line
-	9450 3300 9250 3300
+	10600 3050 10400 3050
 Wire Wire Line
-	9450 3500 9250 3500
+	10600 3150 10400 3150
 Wire Wire Line
-	9450 3700 9250 3700
-Wire Wire Line
-	9450 3800 9250 3800
-Wire Wire Line
-	9450 3900 9250 3900
-Wire Wire Line
-	9450 4000 9250 4000
-Wire Wire Line
-	9450 4100 9250 4100
-Wire Wire Line
-	9450 4200 9250 4200
-Wire Wire Line
-	9450 4300 9250 4300
-Wire Wire Line
-	9450 4400 9250 4400
-Wire Wire Line
-	9450 4500 9250 4500
-Wire Wire Line
-	9450 4600 9250 4600
-Wire Wire Line
-	9450 4700 9250 4700
-Wire Wire Line
-	10600 3700 10400 3700
-Wire Wire Line
-	10600 3800 10400 3800
-Wire Wire Line
-	10600 3900 10400 3900
-Wire Wire Line
-	10600 4000 10400 4000
-Wire Wire Line
-	10600 4100 10400 4100
-Wire Wire Line
-	10600 4200 10400 4200
-Wire Wire Line
-	10600 4300 10400 4300
-Wire Wire Line
-	10600 4400 10400 4400
-Wire Wire Line
-	10600 4500 10400 4500
-Wire Wire Line
-	10600 4600 10400 4600
-Wire Wire Line
-	10600 4700 10400 4700
-Wire Wire Line
-	10600 4800 10400 4800
-Text Label 9250 3300 0    50   ~ 0
-RST
-Wire Wire Line
-	9100 3400 9100 3150
-Wire Wire Line
-	9100 3400 9450 3400
-$Comp
-L power:+3V3 #PWR0116
-U 1 1 605721ED
-P 9100 3150
-F 0 "#PWR0116" H 9100 3000 50  0001 C CNN
-F 1 "+3V3" H 9115 3323 50  0000 C CNN
-F 2 "" H 9100 3150 50  0001 C CNN
-F 3 "" H 9100 3150 50  0001 C CNN
-	1    9100 3150
-	1    0    0    -1  
-$EndComp
-Text Label 9250 3500 0    50   ~ 0
-MD
+	10600 3250 10400 3250
 Wire Wire Line
 	7700 3200 7700 3150
-Wire Wire Line
-	7700 3600 9450 3600
-Connection ~ 7700 3600
-Wire Wire Line
-	7700 3600 7700 3500
-Wire Wire Line
-	7700 3600 7700 4450
-Text Label 9250 3700 0    50   ~ 0
-A0
-Text Label 9250 3800 0    50   ~ 0
-A1
-Text Label 9250 3900 0    50   ~ 0
-A2
-Text Label 9250 4000 0    50   ~ 0
-A3
-Text Label 9250 4100 0    50   ~ 0
-A4
-Text Label 9250 4200 0    50   ~ 0
-A5
-Text Label 9250 4300 0    50   ~ 0
-SCK
-Text Label 9250 4400 0    50   ~ 0
-MO
-Text Label 9250 4500 0    50   ~ 0
-MI
-Text Label 9250 4600 0    50   ~ 0
-RX
-Text Label 9250 4700 0    50   ~ 0
-TX
-Text Label 10450 3700 0    50   ~ 0
+Text Label 10450 3050 0    50   ~ 0
 LI+
-Text Label 10450 3800 0    50   ~ 0
+Text Label 10450 3150 0    50   ~ 0
 EN
-Text Label 10450 3900 0    50   ~ 0
+Text Label 10450 3250 0    50   ~ 0
 VIN
-Text Label 10450 4000 0    50   ~ 0
+Text Label 10450 3350 0    50   ~ 0
 D8
-Text Label 10450 4100 0    50   ~ 0
+Text Label 10450 3450 0    50   ~ 0
 D7
-Text Label 10450 4200 0    50   ~ 0
+Text Label 10450 3550 0    50   ~ 0
 D6
-Text Label 10450 4300 0    50   ~ 0
+Text Label 10450 3650 0    50   ~ 0
 D5
-Text Label 10450 4400 0    50   ~ 0
+Text Label 10450 3750 0    50   ~ 0
 MI1
-Text Label 10450 4500 0    50   ~ 0
-MO1
-Text Label 10450 4600 0    50   ~ 0
-SCK1
-Text Label 10450 4700 0    50   ~ 0
+Text Label 10450 4050 0    50   ~ 0
 SCL
-Text Label 10450 4800 0    50   ~ 0
+Text Label 10450 4150 0    50   ~ 0
 SDA
 Connection ~ 5250 2250
 Wire Wire Line
@@ -1482,21 +1339,13 @@ Wire Wire Line
 Wire Wire Line
 	11050 7200 10550 7200
 Wire Wire Line
-	11050 5950 11050 7200
-Wire Wire Line
 	7700 3150 8350 3150
-Wire Wire Line
-	8350 3150 8350 2800
 Connection ~ 7700 3150
 Wire Wire Line
 	5750 7100 5900 7100
 Wire Wire Line
 	5750 7100 5750 7300
 NoConn ~ 5900 7200
-NoConn ~ 8400 4050
-NoConn ~ 8400 4150
-NoConn ~ 8400 4250
-NoConn ~ 8400 4350
 Wire Wire Line
 	3150 5150 3150 5550
 Connection ~ 3150 5550
@@ -1551,4 +1400,352 @@ Wire Wire Line
 Connection ~ 3150 6600
 Wire Wire Line
 	3150 6600 3150 6450
+$Comp
+L Device:LED L1
+U 1 1 612C3494
+P 8700 3350
+F 0 "L1" V 8739 3232 50  0000 R CNN
+F 1 "RED" V 8648 3232 50  0000 R CNN
+F 2 "LED_SMD:LED_0805_2012Metric" H 8700 3350 50  0001 C CNN
+F 3 "~" H 8700 3350 50  0001 C CNN
+	1    8700 3350
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	7700 3600 7700 4450
+Wire Wire Line
+	7700 3600 7700 3500
+Connection ~ 7700 3600
+NoConn ~ 8400 4350
+NoConn ~ 8400 4250
+NoConn ~ 8400 4150
+NoConn ~ 8400 4050
+Wire Wire Line
+	8400 4450 7700 4450
+Wire Wire Line
+	8400 4750 7350 4750
+Wire Wire Line
+	6950 4650 8400 4650
+$Comp
+L power:+3V3 #PWR0115
+U 1 1 60301B8B
+P 8150 4250
+F 0 "#PWR0115" H 8150 4100 50  0001 C CNN
+F 1 "+3V3" H 8165 4423 50  0000 C CNN
+F 2 "" H 8150 4250 50  0001 C CNN
+F 3 "" H 8150 4250 50  0001 C CNN
+	1    8150 4250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8150 4550 8150 4250
+Wire Wire Line
+	8400 4550 8150 4550
+$Comp
+L Connector_Generic:Conn_01x08 H3
+U 1 1 602E3E90
+P 8600 4350
+F 0 "H3" H 8680 4342 50  0000 L CNN
+F 1 "GPS" H 8680 4251 50  0000 L CNN
+F 2 "Connector_PinSocket_2.54mm:PinSocket_1x08_P2.54mm_Vertical" H 8600 4350 50  0001 C CNN
+F 3 "~" H 8600 4350 50  0001 C CNN
+	1    8600 4350
+	1    0    0    -1  
+$EndComp
+Text Label 9350 3750 0    50   ~ 0
+SCK
+Wire Wire Line
+	9550 4150 9350 4150
+Wire Wire Line
+	9550 4050 9350 4050
+Wire Wire Line
+	9550 3950 9350 3950
+Wire Wire Line
+	9550 3850 9350 3850
+Wire Wire Line
+	9550 3750 9350 3750
+Wire Wire Line
+	9550 3650 9350 3650
+Wire Wire Line
+	9550 3450 9350 3450
+Wire Wire Line
+	9550 3350 9350 3350
+Wire Wire Line
+	9550 3250 9350 3250
+Wire Wire Line
+	9550 3150 9350 3150
+Wire Wire Line
+	9550 2950 9350 2950
+Wire Wire Line
+	9550 2750 9350 2750
+Wire Wire Line
+	9050 2850 9050 2600
+Text Label 9350 2750 0    50   ~ 0
+RST
+Text Label 9350 2950 0    50   ~ 0
+MD
+Text Label 9350 3150 0    50   ~ 0
+A0
+Text Label 9350 3250 0    50   ~ 0
+A1
+Text Label 9350 3350 0    50   ~ 0
+A2
+Text Label 9350 3450 0    50   ~ 0
+A3
+Text Label 9350 3550 0    50   ~ 0
+A4
+Text Label 9350 3650 0    50   ~ 0
+A5
+Text Label 9350 3850 0    50   ~ 0
+MO
+Text Label 9350 3950 0    50   ~ 0
+MI
+Text Label 9350 4050 0    50   ~ 0
+RX
+Text Label 9350 4150 0    50   ~ 0
+TX
+$Comp
+L power:+3V3 #PWR0116
+U 1 1 605721ED
+P 9050 2600
+F 0 "#PWR0116" H 9050 2450 50  0001 C CNN
+F 1 "+3V3" H 9065 2773 50  0000 C CNN
+F 2 "" H 9050 2600 50  0001 C CNN
+F 3 "" H 9050 2600 50  0001 C CNN
+	1    9050 2600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:LED L2
+U 1 1 61386F02
+P 11300 5250
+F 0 "L2" V 11339 5132 50  0000 R CNN
+F 1 "GREEN" V 11248 5132 50  0000 R CNN
+F 2 "LED_SMD:LED_0805_2012Metric" H 11300 5250 50  0001 C CNN
+F 3 "~" H 11300 5250 50  0001 C CNN
+	1    11300 5250
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x15 T4
+U 1 1 603BA196
+P 9750 3450
+F 0 "T4" H 9830 3492 50  0000 L CNN
+F 1 "GPIO_L" H 9830 3401 50  0000 L CNN
+F 2 "Connector_PinSocket_2.54mm:PinSocket_1x15_P2.54mm_Vertical" H 9750 3450 50  0001 C CNN
+F 3 "~" H 9750 3450 50  0001 C CNN
+	1    9750 3450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9050 2850 9550 2850
+Wire Wire Line
+	9550 3050 9000 3050
+Wire Wire Line
+	9000 3050 9000 3600
+Wire Wire Line
+	9000 3600 8700 3600
+$Comp
+L Device:LED L3
+U 1 1 614602B7
+P 10850 5250
+F 0 "L3" V 10889 5132 50  0000 R CNN
+F 1 "BLUE" V 10798 5132 50  0000 R CNN
+F 2 "LED_SMD:LED_0805_2012Metric" H 10850 5250 50  0001 C CNN
+F 3 "~" H 10850 5250 50  0001 C CNN
+	1    10850 5250
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:LED L4
+U 1 1 61472AFA
+P 10400 5250
+F 0 "L4" V 10439 5132 50  0000 R CNN
+F 1 "YELLOW" V 10348 5132 50  0000 R CNN
+F 2 "LED_SMD:LED_0805_2012Metric" H 10400 5250 50  0001 C CNN
+F 3 "~" H 10400 5250 50  0001 C CNN
+	1    10400 5250
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:R R3
+U 1 1 61485C57
+P 11300 4750
+F 0 "R3" H 11370 4796 50  0000 L CNN
+F 1 "68" H 11370 4705 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" V 11230 4750 50  0001 C CNN
+F 3 "~" H 11300 4750 50  0001 C CNN
+	1    11300 4750
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R4
+U 1 1 614AF40B
+P 10850 4750
+F 0 "R4" H 10920 4796 50  0000 L CNN
+F 1 "4.7" H 10920 4705 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" V 10780 4750 50  0001 C CNN
+F 3 "~" H 10850 4750 50  0001 C CNN
+	1    10850 4750
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R5
+U 1 1 614C1C41
+P 10400 4750
+F 0 "R5" H 10470 4796 50  0000 L CNN
+F 1 "68" H 10470 4705 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" V 10330 4750 50  0001 C CNN
+F 3 "~" H 10400 4750 50  0001 C CNN
+	1    10400 4750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8700 3500 8700 3600
+Connection ~ 8700 3600
+Wire Wire Line
+	7700 3600 8700 3600
+Connection ~ 8350 2750
+Wire Wire Line
+	8350 2550 8350 2750
+Wire Wire Line
+	8350 2750 8350 3150
+Wire Wire Line
+	8700 3100 8700 3200
+$Comp
+L Device:R R6
+U 1 1 614D8006
+P 8700 2950
+F 0 "R6" H 8770 2996 50  0000 L CNN
+F 1 "560" H 8770 2905 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" V 8630 2950 50  0001 C CNN
+F 3 "~" H 8700 2950 50  0001 C CNN
+	1    8700 2950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8350 2750 8700 2750
+Wire Wire Line
+	8700 2750 8700 2800
+Text Label 10450 3950 0    50   ~ 0
+SCK1
+Text Label 10450 3850 0    50   ~ 0
+MO1
+Wire Wire Line
+	10600 4150 10400 4150
+Wire Wire Line
+	10600 4050 10400 4050
+Wire Wire Line
+	10600 3950 10400 3950
+Wire Wire Line
+	10600 3850 10400 3850
+Wire Wire Line
+	10600 3750 10400 3750
+Wire Wire Line
+	10600 3650 10400 3650
+Wire Wire Line
+	10600 3550 10400 3550
+Wire Wire Line
+	11300 4900 11300 5100
+Wire Wire Line
+	10850 4900 10850 5100
+Wire Wire Line
+	10850 5400 10850 5650
+Wire Wire Line
+	10850 5650 11050 5650
+Wire Wire Line
+	11050 5650 11050 7200
+Wire Wire Line
+	11050 5650 11300 5650
+Wire Wire Line
+	11300 5650 11300 5400
+Connection ~ 11050 5650
+Wire Wire Line
+	10850 5650 10400 5650
+Wire Wire Line
+	10400 5650 10400 5400
+Connection ~ 10850 5650
+Wire Wire Line
+	10400 4900 10400 5100
+Wire Wire Line
+	4000 3450 3800 3450
+Wire Wire Line
+	4000 3600 3800 3600
+$Comp
+L Connector:Conn_01x02_Female S4
+U 1 1 616B9DDA
+P 3900 5700
+F 0 "S4" H 3928 5676 50  0000 L CNN
+F 1 "AUX_BTN_3" H 3928 5585 50  0000 L CNN
+F 2 "TestPoint:TestPoint_2Pads_Pitch2.54mm_Drill0.8mm" H 3900 5700 50  0001 C CNN
+F 3 "~" H 3900 5700 50  0001 C CNN
+	1    3900 5700
+	0    1    1    0   
+$EndComp
+$Comp
+L Connector:Conn_01x02_Female S3
+U 1 1 616E1EEC
+P 4350 5700
+F 0 "S3" H 4378 5676 50  0000 L CNN
+F 1 "AUX_BTN_2" H 4378 5585 50  0000 L CNN
+F 2 "TestPoint:TestPoint_2Pads_Pitch2.54mm_Drill0.8mm" H 4350 5700 50  0001 C CNN
+F 3 "~" H 4350 5700 50  0001 C CNN
+	1    4350 5700
+	0    1    1    0   
+$EndComp
+$Comp
+L Connector:Conn_01x02_Female S2
+U 1 1 616F6443
+P 4800 5700
+F 0 "S2" H 4828 5676 50  0000 L CNN
+F 1 "AUX_BTN_1" H 4828 5585 50  0000 L CNN
+F 2 "TestPoint:TestPoint_2Pads_Pitch2.54mm_Drill0.8mm" H 4800 5700 50  0001 C CNN
+F 3 "~" H 4800 5700 50  0001 C CNN
+	1    4800 5700
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	9350 3550 9550 3550
+Wire Wire Line
+	10400 3450 10600 3450
+Wire Wire Line
+	10400 3350 10600 3350
+Text Label 11300 4450 0    50   ~ 0
+D8
+Wire Wire Line
+	11300 4450 11300 4600
+Text Label 10850 4450 0    50   ~ 0
+D7
+Wire Wire Line
+	10850 4450 10850 4600
+Text Label 10400 4450 0    50   ~ 0
+A0
+Wire Wire Line
+	10400 4450 10400 4600
+Wire Wire Line
+	4800 5500 4800 5150
+Wire Wire Line
+	4800 5150 5250 5150
+Wire Wire Line
+	4350 5500 4350 5150
+Wire Wire Line
+	4350 5150 4800 5150
+Connection ~ 4800 5150
+Wire Wire Line
+	3900 5500 3900 5150
+Wire Wire Line
+	3900 5150 4350 5150
+Connection ~ 4350 5150
+Wire Wire Line
+	3800 5300 3800 5500
+Wire Wire Line
+	4250 5300 4250 5500
+Wire Wire Line
+	4700 5300 4700 5500
+Text Label 3800 5300 0    50   ~ 0
+A1
+Text Label 4250 5300 0    50   ~ 0
+A2
+Text Label 4700 5300 0    50   ~ 0
+A3
 $EndSCHEMATC
