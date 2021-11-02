@@ -1,7 +1,4 @@
 (fp_lib_table
-  (lib (name Libraries)(type KiCad)(uri ${KIPRJMOD}/Libraries)(options "")(descr ""))
-  (lib (name telemetry-pcb-lib)(type KiCad)(uri ${KIPRJMOD}/Libraries/telemetry-pcb-lib.pretty)(options "")(descr ""))
-  (lib (name Conn_Molex_70553-0001)(type KiCad)(uri ${KIPRJMOD}/Libraries/Conn_Molex_70553-0001)(options "")(descr ""))
-  (lib (name Conn_Molex_70553-0002)(type KiCad)(uri ${KIPRJMOD}/Libraries/Conn_Molex_70553-0002)(options "")(descr ""))
-  (lib (name telemetry-pcb)(type KiCad)(uri /Users/silviu/github/telemetry-pcb)(options "")(descr ""))
+  (lib (name telemetry-pcb)(type KiCad)(uri /Users/silviu/git/telemetry-pcb)(options "")(descr ""))
+  (lib (name Footprints)(type KiCad)(uri ${KIPRJMOD}/Footprints)(options "")(descr ""))
 )
