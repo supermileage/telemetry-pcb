@@ -1,4 +1,4 @@
-19127444714497415
+19148787866430415
 Battery
 BatteryHolder_Bulgin_BX0036_1xC
 Bulgin Battery Holder, BX0036, Battery Type C (https://www.bulgin.com/products/pub/media/bulgin/data/Battery_holders.pdf)
@@ -50883,6 +50883,13 @@ emi filter
 5
 5
 Footprints
+0154001.DRL
+
+
+0
+2
+2
+Footprints
 705510003
 
 
@@ -50890,12 +50897,40 @@ Footprints
 4
 4
 Footprints
+Boron_Pins_L
+Through hole straight socket strip, 1x15, 2.54mm pitch, single row (from Kicad 4.0.7), script generated
+Through hole socket strip THT 1x15 2.54mm single row
+0
+15
+15
+Footprints
+Boron_Pins_R
+Through hole straight socket strip, 1x12, 2.54mm pitch, single row (from Kicad 4.0.7), script generated
+Through hole socket strip THT 1x12 2.54mm single row
+0
+12
+12
+Footprints
 DLS1XP5AK40X
 DLS1XP5AK40X
 Connector
 0
 11
 11
+Footprints
+IF-D96F
+
+
+0
+3
+3
+Footprints
+IF-E97
+
+
+0
+2
+2
 Footprints
 LSM6DSOTR
 
@@ -50917,6 +50952,13 @@ Molex-70551-0002-0-0-0
 0
 3
 3
+Footprints
+Molex-70551-0004-0
+
+
+0
+5
+5
 Footprints
 Molex-70553-0001-0-0-MFG
 
@@ -50980,6 +51022,13 @@ SW_DS01-254-L-01BE
 0
 2
 2
+Footprints
+Sparkfun GPS
+Through hole straight socket strip, 1x08, 2.54mm pitch, single row (from Kicad 4.0.7), script generated
+Through hole socket strip THT 1x08 2.54mm single row
+0
+12
+12
 Footprints
 electron
 
@@ -83146,12 +83195,47 @@ varistor SIOV
 2
 2
 telemetry-pcb
+0154001.DRL
+
+
+0
+2
+2
+telemetry-pcb
+Boron_Pins_L
+Through hole straight socket strip, 1x15, 2.54mm pitch, single row (from Kicad 4.0.7), script generated
+Through hole socket strip THT 1x15 2.54mm single row
+0
+15
+15
+telemetry-pcb
+Boron_Pins_R
+Through hole straight socket strip, 1x12, 2.54mm pitch, single row (from Kicad 4.0.7), script generated
+Through hole socket strip THT 1x12 2.54mm single row
+0
+12
+12
+telemetry-pcb
+IF-D92
+
+
+0
+2
+2
+telemetry-pcb
 LSM6DSOTR
 
 
 0
 14
 14
+telemetry-pcb
+Molex-70551-0004-0
+
+
+0
+5
+5
 telemetry-pcb
 Particle_boron
 
@@ -83187,6 +83271,13 @@ SW-2
 0
 2
 2
+telemetry-pcb
+Sparkfun GPS
+Through hole straight socket strip, 1x08, 2.54mm pitch, single row (from Kicad 4.0.7), script generated
+Through hole socket strip THT 1x08 2.54mm single row
+0
+12
+12
 telemetry-pcb
 db-9
 DLS1XP5AK40X

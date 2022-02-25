@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 3 4
+Sheet 2 3
 Title ""
 Date ""
 Rev ""
@@ -83,8 +83,8 @@ L power:GND #PWR?
 U 1 1 6199B42E
 P 6150 4600
 AR Path="/6199B42E" Ref="#PWR?"  Part="1" 
-AR Path="/61951597/6199B42E" Ref="#PWR0119"  Part="1" 
-F 0 "#PWR0119" H 6150 4350 50  0001 C CNN
+AR Path="/61951597/6199B42E" Ref="#PWR013"  Part="1" 
+F 0 "#PWR013" H 6150 4350 50  0001 C CNN
 F 1 "GND" H 6155 4427 50  0000 C CNN
 F 2 "" H 6150 4600 50  0001 C CNN
 F 3 "" H 6150 4600 50  0001 C CNN
@@ -99,8 +99,8 @@ L power:+3V3 #PWR?
 U 1 1 6199B436
 P 6350 2500
 AR Path="/6199B436" Ref="#PWR?"  Part="1" 
-AR Path="/61951597/6199B436" Ref="#PWR0120"  Part="1" 
-F 0 "#PWR0120" H 6350 2350 50  0001 C CNN
+AR Path="/61951597/6199B436" Ref="#PWR014"  Part="1" 
+F 0 "#PWR014" H 6350 2350 50  0001 C CNN
 F 1 "+3V3" H 6365 2673 50  0000 C CNN
 F 2 "" H 6350 2500 50  0001 C CNN
 F 3 "" H 6350 2500 50  0001 C CNN
@@ -124,61 +124,25 @@ Wire Wire Line
 	4050 3600 4050 4800
 Wire Wire Line
 	4600 3400 4350 3400
-Text HLabel 9600 3600 2    100  Output ~ 0
+Text HLabel 10450 3000 2    100  Output ~ 0
 RX
-$Comp
-L Connector:Conn_01x04_Male J1
-U 1 1 61C3A8C7
-P 8300 2700
-F 0 "J1" H 8408 2981 50  0000 C CNN
-F 1 "TTL" H 8408 2890 50  0000 C CNN
-F 2 "telemetry-pcb:molex_sl_1x04_horizontal" H 8300 2700 50  0001 C CNN
-F 3 "~" H 8300 2700 50  0001 C CNN
-	1    8300 2700
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	9600 1900 8700 1900
-Text HLabel 9600 1900 2    100  Output ~ 0
+Text HLabel 10450 2400 2    100  Output ~ 0
 TX
 Wire Wire Line
-	8700 2600 8500 2600
-Connection ~ 8700 1900
-Wire Wire Line
-	8500 2700 8700 2700
-Wire Wire Line
-	8500 2800 8700 2800
-Wire Wire Line
-	8700 3600 9600 3600
-Wire Wire Line
-	8500 2900 8700 2900
-Wire Wire Line
 	4350 1900 4350 3400
-Connection ~ 8700 3600
-Wire Wire Line
-	8700 1900 8700 2600
-Connection ~ 8700 2600
-Wire Wire Line
-	8700 2600 8700 2700
-Wire Wire Line
-	8700 2800 8700 2900
-Connection ~ 8700 2900
-Wire Wire Line
-	8700 2900 8700 3600
 NoConn ~ 7150 5200
 NoConn ~ 7150 5100
 NoConn ~ 7150 4900
 NoConn ~ 7150 4700
 NoConn ~ 7150 4600
 NoConn ~ 7150 4500
-NoConn ~ 7150 4400
 $Comp
 L Connector:Conn_01x02_Female T?
 U 1 1 6199B41D
 P 6850 5450
 AR Path="/6199B41D" Ref="T?"  Part="1" 
-AR Path="/61951597/6199B41D" Ref="T6"  Part="1" 
-F 0 "T6" V 6696 5262 50  0000 R CNN
+AR Path="/61951597/6199B41D" Ref="T5"  Part="1" 
+F 0 "T5" V 6696 5262 50  0000 R CNN
 F 1 "TEST_RS232" V 6787 5262 50  0000 R CNN
 F 2 "TestPoint:TestPoint_2Pads_Pitch2.54mm_Drill0.8mm" H 6850 5450 50  0001 C CNN
 F 3 "~" H 6850 5450 50  0001 C CNN
@@ -190,8 +154,8 @@ L Connector:DB9_Male CN?
 U 1 1 6199B3ED
 P 7450 4800
 AR Path="/6199B3ED" Ref="CN?"  Part="1" 
-AR Path="/61951597/6199B3ED" Ref="CN13"  Part="1" 
-F 0 "CN13" H 7630 4846 50  0000 L CNN
+AR Path="/61951597/6199B3ED" Ref="CN3"  Part="1" 
+F 0 "CN3" H 7630 4846 50  0000 L CNN
 F 1 "RS232" H 7630 4755 50  0000 L CNN
 F 2 "telemetry-pcb:db-9" H 7450 4800 50  0001 C CNN
 F 3 " ~" H 7450 4800 50  0001 C CNN
@@ -221,8 +185,8 @@ L telemetry-pcb-rescue:GND-telemetry-pcb-eagle-import-telemetry-pcb-rescue #SUPP
 U 1 1 6199B40A
 P 7050 3300
 AR Path="/6199B40A" Ref="#SUPPLY?"  Part="1" 
-AR Path="/61951597/6199B40A" Ref="#SUPPLY0101"  Part="1" 
-F 0 "#SUPPLY0101" H 7050 3300 50  0001 C CNN
+AR Path="/61951597/6199B40A" Ref="#SUPPLY01"  Part="1" 
+F 0 "#SUPPLY01" H 7050 3300 50  0001 C CNN
 F 1 "GND" H 7050 3200 59  0000 C CNN
 F 2 "" H 7050 3300 50  0001 C CNN
 F 3 "" H 7050 3300 50  0001 C CNN
@@ -270,7 +234,158 @@ Wire Wire Line
 Wire Wire Line
 	6850 5000 7150 5000
 Wire Wire Line
-	4350 1900 8700 1900
+	7150 4400 7000 4400
 Wire Wire Line
-	6000 3600 8700 3600
+	7000 4400 7000 4100
+Wire Wire Line
+	7000 4100 8250 4100
+$Comp
+L telemetry-pcb-rescue:GND-telemetry-pcb-eagle-import-telemetry-pcb-rescue #SUPPLY?
+U 1 1 62526122
+P 8250 4700
+AR Path="/62526122" Ref="#SUPPLY?"  Part="1" 
+AR Path="/61951597/62526122" Ref="#SUPPLY02"  Part="1" 
+F 0 "#SUPPLY02" H 8250 4700 50  0001 C CNN
+F 1 "GND" H 8250 4600 59  0000 C CNN
+F 2 "" H 8250 4700 50  0001 C CNN
+F 3 "" H 8250 4700 50  0001 C CNN
+	1    8250 4700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4350 1900 8950 1900
+$Comp
+L Device:Q_Photo_NPN Q1
+U 1 1 625465A1
+P 9250 3650
+F 0 "Q1" H 9440 3696 50  0000 L CNN
+F 1 "IF-D92" H 9440 3605 50  0000 L CNN
+F 2 "telemetry-pcb:IF-D92" H 9450 3750 50  0001 C CNN
+F 3 "~" H 9250 3650 50  0001 C CNN
+	1    9250 3650
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R7
+U 1 1 625499FE
+P 9350 4150
+F 0 "R7" H 9420 4196 50  0000 L CNN
+F 1 "10K" H 9420 4105 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" V 9280 4150 50  0001 C CNN
+F 3 "~" H 9350 4150 50  0001 C CNN
+	1    9350 4150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	10050 2350 10250 2350
+Wire Wire Line
+	10250 2350 10250 2400
+Wire Wire Line
+	10250 2400 10450 2400
+Wire Wire Line
+	10050 2450 10250 2450
+Wire Wire Line
+	10250 2450 10250 2400
+Connection ~ 10250 2400
+$Comp
+L Connector_Generic:Conn_02x02_Odd_Even J1
+U 1 1 6254B4AA
+P 9750 2350
+F 0 "J1" H 9800 2567 50  0000 C CNN
+F 1 "Header 02x02" H 9800 2476 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_2x02_P2.54mm_Horizontal" H 9750 2350 50  0001 C CNN
+F 3 "~" H 9750 2350 50  0001 C CNN
+	1    9750 2350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8950 1900 8950 2350
+$Comp
+L Connector_Generic:Conn_01x05 CN4
+U 1 1 62553AD4
+P 7800 2550
+F 0 "CN4" H 7718 2125 50  0000 C CNN
+F 1 "UART" H 7718 2216 50  0000 C CNN
+F 2 "telemetry-pcb:Molex-70551-0004-0" H 7800 2550 50  0001 C CNN
+F 3 "~" H 7800 2550 50  0001 C CNN
+	1    7800 2550
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	8000 2450 9550 2450
+$Comp
+L power:+3V3 #PWR?
+U 1 1 6255A3E2
+P 8250 2250
+AR Path="/6255A3E2" Ref="#PWR?"  Part="1" 
+AR Path="/61951597/6255A3E2" Ref="#PWR015"  Part="1" 
+F 0 "#PWR015" H 8250 2100 50  0001 C CNN
+F 1 "+3V3" H 8265 2423 50  0000 C CNN
+F 2 "" H 8250 2250 50  0001 C CNN
+F 3 "" H 8250 2250 50  0001 C CNN
+	1    8250 2250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8000 2350 8250 2350
+Wire Wire Line
+	8250 2350 8250 2250
+$Comp
+L Connector_Generic:Conn_02x03_Odd_Even J2
+U 1 1 6255DD8F
+P 9750 3000
+F 0 "J2" H 9800 3317 50  0000 C CNN
+F 1 "Header 02x03" H 9800 3226 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_2x03_P2.54mm_Horizontal" H 9750 3000 50  0001 C CNN
+F 3 "~" H 9750 3000 50  0001 C CNN
+	1    9750 3000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6000 3600 8950 3600
+Wire Wire Line
+	10050 2900 10250 2900
+Wire Wire Line
+	10250 2900 10250 3000
+Wire Wire Line
+	10250 3000 10450 3000
+Wire Wire Line
+	10050 3000 10250 3000
+Connection ~ 10250 3000
+Wire Wire Line
+	10050 3100 10250 3100
+Wire Wire Line
+	10250 3100 10250 3000
+Wire Wire Line
+	8000 2650 8700 2650
+Wire Wire Line
+	8950 2900 9550 2900
+Wire Wire Line
+	8950 2350 9550 2350
+Wire Wire Line
+	8950 2900 8950 3600
+Wire Wire Line
+	8700 3000 9550 3000
+Wire Wire Line
+	8700 2650 8700 3000
+Wire Wire Line
+	9350 3100 9550 3100
+Wire Wire Line
+	9350 3100 9350 3450
+Wire Wire Line
+	9350 3850 9350 4000
+Wire Wire Line
+	8250 4100 8250 4450
+Wire Wire Line
+	9350 4300 9350 4450
+Wire Wire Line
+	9350 4450 8250 4450
+Connection ~ 8250 4450
+Wire Wire Line
+	8250 4450 8250 4600
+Wire Wire Line
+	8000 2750 8000 3200
+Wire Wire Line
+	8000 3200 7050 3200
+NoConn ~ 8000 2550
 $EndSCHEMATC
