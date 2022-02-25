@@ -491,7 +491,7 @@ U 1 1 603BA196
 P 5500 1300
 F 0 "T2" H 5350 2250 50  0000 L CNN
 F 1 "GPIO_L" H 5350 2150 50  0000 L CNN
-F 2 "Connector_PinSocket_2.54mm:PinSocket_1x15_P2.54mm_Vertical" H 5500 1300 50  0001 C CNN
+F 2 "telemetry-pcb:Boron_Pins_L" H 5500 1300 50  0001 C CNN
 F 3 "~" H 5500 1300 50  0001 C CNN
 	1    5500 1300
 	1    0    0    -1  
@@ -502,7 +502,7 @@ U 1 1 603BCCF9
 P 5950 1400
 F 0 "T3" H 5868 2117 50  0000 C CNN
 F 1 "GPIO_R" H 5868 2026 50  0000 C CNN
-F 2 "Connector_PinSocket_2.54mm:PinSocket_1x12_P2.54mm_Vertical" H 5950 1400 50  0001 C CNN
+F 2 "telemetry-pcb:Boron_Pins_R" H 5950 1400 50  0001 C CNN
 F 3 "~" H 5950 1400 50  0001 C CNN
 	1    5950 1400
 	-1   0    0    -1  
