@@ -292,7 +292,7 @@ L Connector_Generic:Conn_02x02_Odd_Even J1
 U 1 1 6254B4AA
 P 9750 2350
 F 0 "J1" H 9800 2567 50  0000 C CNN
-F 1 "Header 02x02" H 9800 2476 50  0000 C CNN
+F 1 "TX_SEL" H 9800 2476 50  0000 C CNN
 F 2 "Connector_PinHeader_2.54mm:PinHeader_2x02_P2.54mm_Horizontal" H 9750 2350 50  0001 C CNN
 F 3 "~" H 9750 2350 50  0001 C CNN
 	1    9750 2350
@@ -335,7 +335,7 @@ L Connector_Generic:Conn_02x03_Odd_Even J2
 U 1 1 6255DD8F
 P 9750 3000
 F 0 "J2" H 9800 3317 50  0000 C CNN
-F 1 "Header 02x03" H 9800 3226 50  0000 C CNN
+F 1 "RX_SEL" H 9800 3226 50  0000 C CNN
 F 2 "Connector_PinHeader_2.54mm:PinHeader_2x03_P2.54mm_Horizontal" H 9750 3000 50  0001 C CNN
 F 3 "~" H 9750 3000 50  0001 C CNN
 	1    9750 3000

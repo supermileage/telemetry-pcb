@@ -36,14 +36,14 @@ A3
 $Comp
 L Connector_Generic:Conn_01x04 CN1
 U 1 1 621A168A
-P 950 800
+P 1300 1150
 AR Path="/621A168A" Ref="CN1"  Part="1" 
 AR Path="/6188C66E/621A168A" Ref="CN?"  Part="1" 
-F 0 "CN1" V 1050 950 50  0000 R CNN
-F 1 "12V" V 1050 700 50  0000 R CNN
-F 2 "telemetry-pcb:molex_sl_1x04_horizontal" H 950 800 50  0001 C CNN
-F 3 "~" H 950 800 50  0001 C CNN
-	1    950  800 
+F 0 "CN1" V 1400 1300 50  0000 R CNN
+F 1 "12V" V 1400 1050 50  0000 R CNN
+F 2 "telemetry-pcb:molex_sl_1x04_horizontal" H 1300 1150 50  0001 C CNN
+F 3 "~" H 1300 1150 50  0001 C CNN
+	1    1300 1150
 	0    -1   -1   0   
 $EndComp
 $Comp
@@ -866,19 +866,6 @@ Wire Wire Line
 	3500 4350 3300 4350
 Wire Wire Line
 	3300 4350 3300 4700
-$Comp
-L Connector_Generic:Conn_01x04 CN2
-U 1 1 625FC8D1
-P 1700 800
-AR Path="/625FC8D1" Ref="CN2"  Part="1" 
-AR Path="/6188C66E/625FC8D1" Ref="CN?"  Part="1" 
-F 0 "CN2" V 1800 950 50  0000 R CNN
-F 1 "12V" V 1800 700 50  0000 R CNN
-F 2 "telemetry-pcb:molex_sl_1x04_horizontal" H 1700 800 50  0001 C CNN
-F 3 "~" H 1700 800 50  0001 C CNN
-	1    1700 800 
-	0    -1   -1   0   
-$EndComp
 Connection ~ 850  2350
 Wire Wire Line
 	850  2350 850  2750
@@ -908,52 +895,36 @@ Wire Wire Line
 	850  2100 1300 2100
 Connection ~ 1900 2100
 Wire Wire Line
-	1800 1000 1800 1150
-Wire Wire Line
-	1800 1150 1900 1150
-Wire Wire Line
-	1900 1150 1900 1000
-Wire Wire Line
-	1150 1150 1150 1000
-Connection ~ 1800 1150
-Wire Wire Line
-	1050 1150 1050 1000
-Wire Wire Line
-	1150 1150 1800 1150
-Wire Wire Line
-	1050 1150 1150 1150
-Connection ~ 1150 1150
-Wire Wire Line
-	850  1000 850  1300
-Connection ~ 850  2100
-Wire Wire Line
-	950  1000 950  1300
-Wire Wire Line
-	950  1300 850  1300
-Connection ~ 850  1300
-Wire Wire Line
-	850  1300 850  2100
-Wire Wire Line
-	950  1300 1600 1300
-Wire Wire Line
-	1600 1300 1600 1000
-Connection ~ 950  1300
-Wire Wire Line
-	1700 1000 1700 1300
-Wire Wire Line
-	1700 1300 1600 1300
-Connection ~ 1600 1300
-Wire Wire Line
 	1900 1950 1900 2100
 Wire Wire Line
 	850  2100 850  2350
-Wire Wire Line
-	1900 1150 1900 1650
-Connection ~ 1900 1150
 Wire Wire Line
 	7900 2650 7900 4050
 Wire Wire Line
 	2500 2650 7900 2650
 Wire Wire Line
 	7900 4050 7350 4050
+Wire Wire Line
+	1900 1650 1900 1500
+Wire Wire Line
+	1900 1500 1500 1500
+Wire Wire Line
+	1500 1500 1500 1350
+Wire Wire Line
+	1400 1350 1400 1500
+Wire Wire Line
+	1400 1500 1500 1500
+Connection ~ 1500 1500
+Wire Wire Line
+	1300 1350 1300 1500
+Wire Wire Line
+	1300 1500 1200 1500
+Wire Wire Line
+	850  1500 850  2100
+Connection ~ 850  2100
+Wire Wire Line
+	1200 1350 1200 1500
+Connection ~ 1200 1500
+Wire Wire Line
+	1200 1500 850  1500
 $EndSCHEMATC
