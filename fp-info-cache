@@ -1,4 +1,4 @@
-19138974967300415
+19129158932532415
 Battery
 BatteryHolder_Bulgin_BX0036_1xC
 Bulgin Battery Holder, BX0036, Battery Type C (https://www.bulgin.com/products/pub/media/bulgin/data/Battery_holders.pdf)
@@ -50925,20 +50925,6 @@ IF-D92
 2
 2
 Footprints
-IF-D96F
-
-
-0
-3
-3
-Footprints
-IF-E97
-
-
-0
-2
-2
-Footprints
 LSM6DSOTR
 
 
@@ -50980,27 +50966,6 @@ Molex-70553-0002-0-0-0
 0
 3
 3
-Footprints
-Molex_Mega-Fit_76825-0002_2x01_P5.70mm_Horizontal
-Molex Mega-Fit Power Connectors, 76825-0002 (compatible alternatives: 172064-0002, 172064-1002), 1 Pins per row (http://www.molex.com/pdm_docs/sd/1720640002_sd.pdf), generated with kicad-footprint-generator
-connector Molex Mega-Fit top entry
-0
-2
-2
-Footprints
-Molex_Mega-Fit_76825-0008_2x04_P5.70mm_Horizontal
-Molex Mega-Fit Power Connectors, 76825-0008 (compatible alternatives: 172064-0008, 172064-1008), 4 Pins per row (http://www.molex.com/pdm_docs/sd/1720640002_sd.pdf), generated with kicad-footprint-generator
-connector Molex Mega-Fit top entry
-0
-8
-8
-Footprints
-PCB_FeatherWing
-
-
-0
-28
-28
 Footprints
 Particle_boron
 
@@ -51078,13 +51043,6 @@ Connector
 0
 11
 11
-Footprints
-electron
-
-
-0
-36
-36
 Footprints
 molex-sl-1x03-horizontal
 
