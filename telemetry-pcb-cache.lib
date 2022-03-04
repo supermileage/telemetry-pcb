@@ -584,11 +584,11 @@ X pwr 1 0 0 0 U 50 50 0 0 w
 ENDDRAW
 ENDDEF
 #
-# telemetry-pcb-rescue_GND-telemetry-pcb-eagle-import-telemetry-pcb-rescue
+# telemetry-pcb-rescue_GND-telemetry-pcb-eagle-import-telemetry-pcb-rescue-telemetry-pcb-rescue
 #
-DEF telemetry-pcb-rescue_GND-telemetry-pcb-eagle-import-telemetry-pcb-rescue #SUPPLY 0 40 Y Y 1 L P
+DEF telemetry-pcb-rescue_GND-telemetry-pcb-eagle-import-telemetry-pcb-rescue-telemetry-pcb-rescue #SUPPLY 0 40 Y Y 1 L P
 F0 "#SUPPLY" 0 0 50 H I C CNN
-F1 "telemetry-pcb-rescue_GND-telemetry-pcb-eagle-import-telemetry-pcb-rescue" 0 -100 59 H V C CNN
+F1 "telemetry-pcb-rescue_GND-telemetry-pcb-eagle-import-telemetry-pcb-rescue-telemetry-pcb-rescue" 0 -100 59 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
@@ -599,11 +599,11 @@ X GND 1 0 100 100 D 0 0 1 0 W
 ENDDRAW
 ENDDEF
 #
-# telemetry-pcb-rescue_LSM6DSOTR-2021-11-02_20-37-28-telemetry-pcb-rescue-telemetry-pcb-rescue
+# telemetry-pcb-rescue_LSM6DSOTR-2021-11-02_20-37-28-telemetry-pcb-rescue-telemetry-pcb-rescue-telemetry-pcb-rescue
 #
-DEF telemetry-pcb-rescue_LSM6DSOTR-2021-11-02_20-37-28-telemetry-pcb-rescue-telemetry-pcb-rescue U 0 10 Y Y 1 L N
+DEF telemetry-pcb-rescue_LSM6DSOTR-2021-11-02_20-37-28-telemetry-pcb-rescue-telemetry-pcb-rescue-telemetry-pcb-rescue U 0 10 Y Y 1 L N
 F0 "U" 1000 400 60 H V C CNN
-F1 "telemetry-pcb-rescue_LSM6DSOTR-2021-11-02_20-37-28-telemetry-pcb-rescue-telemetry-pcb-rescue" 1000 300 60 H V C CNN
+F1 "telemetry-pcb-rescue_LSM6DSOTR-2021-11-02_20-37-28-telemetry-pcb-rescue-telemetry-pcb-rescue-telemetry-pcb-rescue" 1000 300 60 H V C CNN
 F2 "LGA-14L_2P5X3X0P86_STM" 1000 240 60 H I C CNN
 F3 "" 0 0 60 H V C CNN
 $FPLIST
@@ -633,11 +633,11 @@ X INT2 9 2000 -500 300 L 59 59 1 1 O
 ENDDRAW
 ENDDEF
 #
-# telemetry-pcb-rescue_MAX31855K-telemetry-pcb-eagle-import-telemetry-pcb-rescue
+# telemetry-pcb-rescue_MAX31855K-telemetry-pcb-eagle-import-telemetry-pcb-rescue-telemetry-pcb-rescue
 #
-DEF telemetry-pcb-rescue_MAX31855K-telemetry-pcb-eagle-import-telemetry-pcb-rescue U 0 40 Y Y 1 L N
+DEF telemetry-pcb-rescue_MAX31855K-telemetry-pcb-eagle-import-telemetry-pcb-rescue-telemetry-pcb-rescue U 0 40 Y Y 1 L N
 F0 "U" -300 400 59 H V L BNN
-F1 "telemetry-pcb-rescue_MAX31855K-telemetry-pcb-eagle-import-telemetry-pcb-rescue" -300 -500 59 H V L BNN
+F1 "telemetry-pcb-rescue_MAX31855K-telemetry-pcb-eagle-import-telemetry-pcb-rescue-telemetry-pcb-rescue" -300 -500 59 H V L BNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
@@ -655,11 +655,11 @@ X (MI)SO 7 500 -200 200 L 50 50 1 0 B
 ENDDRAW
 ENDDEF
 #
-# telemetry-pcb-rescue_MAX3232CPWR-MAX3232CPWR-telemetry-pcb-rescue
+# telemetry-pcb-rescue_MAX3232CPWR-MAX3232CPWR-telemetry-pcb-rescue-telemetry-pcb-rescue
 #
-DEF telemetry-pcb-rescue_MAX3232CPWR-MAX3232CPWR-telemetry-pcb-rescue U 0 40 Y Y 1 L N
+DEF telemetry-pcb-rescue_MAX3232CPWR-MAX3232CPWR-telemetry-pcb-rescue-telemetry-pcb-rescue U 0 40 Y Y 1 L N
 F0 "U" -500 839 50 H V L BNN
-F1 "telemetry-pcb-rescue_MAX3232CPWR-MAX3232CPWR-telemetry-pcb-rescue" -500 -957 50 H V L BNN
+F1 "telemetry-pcb-rescue_MAX3232CPWR-MAX3232CPWR-telemetry-pcb-rescue-telemetry-pcb-rescue" -500 -957 50 H V L BNN
 F2 "SOP65P640X120-16N" 0 0 50 H I L BNN
 F3 "" 0 0 50 H I L BNN
 DRAW
@@ -683,11 +683,11 @@ X ROUT2 9 700 100 200 L 40 40 0 0 O
 ENDDRAW
 ENDDEF
 #
-# telemetry-pcb-rescue_Particle_Boron-particle-telemetry-pcb-rescue
+# telemetry-pcb-rescue_Particle_Boron-particle-telemetry-pcb-rescue-telemetry-pcb-rescue
 #
-DEF telemetry-pcb-rescue_Particle_Boron-particle-telemetry-pcb-rescue A 0 40 Y Y 1 F N
+DEF telemetry-pcb-rescue_Particle_Boron-particle-telemetry-pcb-rescue-telemetry-pcb-rescue A 0 40 Y Y 1 F N
 F0 "A" -850 1150 50 H V C CNN
-F1 "telemetry-pcb-rescue_Particle_Boron-particle-telemetry-pcb-rescue" 50 -1100 50 H V C CNN
+F1 "telemetry-pcb-rescue_Particle_Boron-particle-telemetry-pcb-rescue-telemetry-pcb-rescue" 50 -1100 50 H V C CNN
 F2 "" -700 200 50 H I C CNN
 F3 "" -700 200 50 H I C CNN
 DRAW
@@ -723,11 +723,11 @@ X VBUS VUSB 1500 450 200 L 50 50 1 1 W
 ENDDRAW
 ENDDEF
 #
-# telemetry-pcb-rescue_TCAN332DR-TCAN332DR-telemetry-pcb-rescue
+# telemetry-pcb-rescue_TCAN332DR-TCAN332DR-telemetry-pcb-rescue-telemetry-pcb-rescue
 #
-DEF telemetry-pcb-rescue_TCAN332DR-TCAN332DR-telemetry-pcb-rescue U 0 40 Y Y 1 L N
+DEF telemetry-pcb-rescue_TCAN332DR-TCAN332DR-telemetry-pcb-rescue-telemetry-pcb-rescue U 0 40 Y Y 1 L N
 F0 "U" -500 639 50 H V L BNN
-F1 "telemetry-pcb-rescue_TCAN332DR-TCAN332DR-telemetry-pcb-rescue" -500 -757 50 H V L BNN
+F1 "telemetry-pcb-rescue_TCAN332DR-TCAN332DR-telemetry-pcb-rescue-telemetry-pcb-rescue" -500 -757 50 H V L BNN
 F2 "SOIC127P599X175-8N" 0 0 50 H I L BNN
 F3 "" 0 0 50 H I L BNN
 DRAW

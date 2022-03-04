@@ -555,7 +555,7 @@ F 3 "" H 6600 6250 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L telemetry-pcb-rescue:Particle_Boron-particle-telemetry-pcb-rescue H1
+L telemetry-pcb-rescue:Particle_Boron-particle-telemetry-pcb-rescue-telemetry-pcb-rescue H1
 U 1 1 602A0E66
 P 5850 4500
 F 0 "H1" H 6000 3200 50  0000 C CNN
