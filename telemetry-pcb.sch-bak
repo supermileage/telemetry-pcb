@@ -555,7 +555,7 @@ F 3 "" H 6600 6250 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L telemetry-pcb-rescue:Particle_Boron-particle-telemetry-pcb-rescue H1
+L telemetry-pcb-rescue:Particle_Boron-particle-telemetry-pcb-rescue-telemetry-pcb-rescue H1
 U 1 1 602A0E66
 P 5850 4500
 F 0 "H1" H 6000 3200 50  0000 C CNN
@@ -779,23 +779,6 @@ F10 "IMU_CS" O R 10400 1700 50
 F11 "T1_CS" O R 10400 1800 50 
 F12 "T2_CS" O R 10400 1900 50 
 $EndSheet
-$Comp
-L Connector_Generic:Conn_01x08 H2
-U 1 1 61991C85
-P 9000 5250
-AR Path="/61991C85" Ref="H2"  Part="1" 
-AR Path="/61951597/61991C85" Ref="G?"  Part="1" 
-F 0 "H2" H 9080 5242 50  0000 L CNN
-F 1 "GPS" H 9080 5151 50  0000 L CNN
-F 2 "telemetry-pcb:Sparkfun GPS" H 9000 5250 50  0001 C CNN
-F 3 "~" H 9000 5250 50  0001 C CNN
-	1    9000 5250
-	1    0    0    -1  
-$EndComp
-NoConn ~ 8800 4950
-NoConn ~ 8800 5050
-NoConn ~ 8800 5150
-NoConn ~ 8800 5250
 Wire Wire Line
 	8950 4350 9100 4350
 Wire Wire Line
@@ -927,4 +910,15 @@ Wire Wire Line
 Connection ~ 1200 1500
 Wire Wire Line
 	1200 1500 850  1500
+$Comp
+L Connector_Generic:Conn_01x04 CN8
+U 1 1 622718B5
+P 9000 5450
+F 0 "CN8" H 9080 5442 50  0000 L CNN
+F 1 "GPS" H 9080 5351 50  0000 L CNN
+F 2 "" H 9000 5450 50  0001 C CNN
+F 3 "~" H 9000 5450 50  0001 C CNN
+	1    9000 5450
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC

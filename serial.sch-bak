@@ -108,7 +108,7 @@ F 3 "" H 6350 2500 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L telemetry-pcb-rescue:MAX3232CPWR-MAX3232CPWR-telemetry-pcb-rescue IC?
+L telemetry-pcb-rescue:MAX3232CPWR-MAX3232CPWR-telemetry-pcb-rescue-telemetry-pcb-rescue IC?
 U 1 1 6199B43C
 P 5300 3800
 AR Path="/6199B43C" Ref="IC?"  Part="1" 
@@ -181,7 +181,7 @@ Connection ~ 7050 3200
 Wire Wire Line
 	7050 2800 7050 3200
 $Comp
-L telemetry-pcb-rescue:GND-telemetry-pcb-eagle-import-telemetry-pcb-rescue #SUPPLY?
+L telemetry-pcb-rescue:GND-telemetry-pcb-eagle-import-telemetry-pcb-rescue-telemetry-pcb-rescue #SUPPLY?
 U 1 1 6199B40A
 P 7050 3300
 AR Path="/6199B40A" Ref="#SUPPLY?"  Part="1" 
@@ -240,7 +240,7 @@ Wire Wire Line
 Wire Wire Line
 	7000 4100 8250 4100
 $Comp
-L telemetry-pcb-rescue:GND-telemetry-pcb-eagle-import-telemetry-pcb-rescue #SUPPLY?
+L telemetry-pcb-rescue:GND-telemetry-pcb-eagle-import-telemetry-pcb-rescue-telemetry-pcb-rescue #SUPPLY?
 U 1 1 62526122
 P 8250 4700
 AR Path="/62526122" Ref="#SUPPLY?"  Part="1" 

@@ -138,7 +138,7 @@ F 3 "~" H 6200 7200 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L telemetry-pcb-rescue:TCAN332DR-TCAN332DR-telemetry-pcb-rescue IC?
+L telemetry-pcb-rescue:TCAN332DR-TCAN332DR-telemetry-pcb-rescue-telemetry-pcb-rescue IC?
 U 1 1 6196EF6D
 P 7550 6650
 AR Path="/6196EF6D" Ref="IC?"  Part="1" 
@@ -303,7 +303,7 @@ F 3 "" H 1500 950 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L telemetry-pcb-rescue:MAX31855K-telemetry-pcb-eagle-import-telemetry-pcb-rescue IC?
+L telemetry-pcb-rescue:MAX31855K-telemetry-pcb-eagle-import-telemetry-pcb-rescue-telemetry-pcb-rescue IC?
 U 1 1 6198C080
 P 2400 1450
 AR Path="/6198C080" Ref="IC?"  Part="1" 
@@ -430,7 +430,7 @@ Wire Wire Line
 Wire Wire Line
 	1000 1650 1900 1650
 $Comp
-L telemetry-pcb-rescue:LSM6DSOTR-2021-11-02_20-37-28-telemetry-pcb-rescue-telemetry-pcb-rescue IC?
+L telemetry-pcb-rescue:LSM6DSOTR-2021-11-02_20-37-28-telemetry-pcb-rescue-telemetry-pcb-rescue-telemetry-pcb-rescue IC?
 U 1 1 61D40F93
 P 8450 2750
 AR Path="/61D40F93" Ref="IC?"  Part="1" 
@@ -568,7 +568,7 @@ $EndComp
 Wire Wire Line
 	2200 3450 2200 4150
 $Comp
-L telemetry-pcb-rescue:MAX31855K-telemetry-pcb-eagle-import-telemetry-pcb-rescue IC?
+L telemetry-pcb-rescue:MAX31855K-telemetry-pcb-eagle-import-telemetry-pcb-rescue-telemetry-pcb-rescue IC?
 U 1 1 6198C07A
 P 3100 3450
 AR Path="/6198C07A" Ref="IC?"  Part="1" 
