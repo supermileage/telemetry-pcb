@@ -121,8 +121,6 @@ F 3 "" H 5300 3800 50  0001 L BNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	4050 3600 4050 4800
-Wire Wire Line
 	4600 3400 4350 3400
 Text HLabel 10450 3000 2    100  Output ~ 0
 RX
@@ -130,34 +128,32 @@ Text HLabel 10450 2400 2    100  Output ~ 0
 TX
 Wire Wire Line
 	4350 1900 4350 3400
-NoConn ~ 7150 5200
 NoConn ~ 7150 5100
 NoConn ~ 7150 4900
 NoConn ~ 7150 4700
-NoConn ~ 7150 4600
 NoConn ~ 7150 4500
 $Comp
 L Connector:Conn_01x02_Female T?
 U 1 1 6199B41D
-P 6850 5450
+P 6750 5350
 AR Path="/6199B41D" Ref="T?"  Part="1" 
 AR Path="/61951597/6199B41D" Ref="T5"  Part="1" 
-F 0 "T5" V 6696 5262 50  0000 R CNN
-F 1 "TEST_RS232" V 6787 5262 50  0000 R CNN
-F 2 "TestPoint:TestPoint_2Pads_Pitch2.54mm_Drill0.8mm" H 6850 5450 50  0001 C CNN
-F 3 "~" H 6850 5450 50  0001 C CNN
-	1    6850 5450
+F 0 "T5" V 6596 5162 50  0000 R CNN
+F 1 "TEST_RS232" V 6687 5162 50  0000 R CNN
+F 2 "TestPoint:TestPoint_2Pads_Pitch2.54mm_Drill0.8mm" H 6750 5350 50  0001 C CNN
+F 3 "~" H 6750 5350 50  0001 C CNN
+	1    6750 5350
 	0    1    1    0   
 $EndComp
 $Comp
-L Connector:DB9_Male CN?
+L Connector:DB9_Female CN?
 U 1 1 6199B3ED
 P 7450 4800
 AR Path="/6199B3ED" Ref="CN?"  Part="1" 
 AR Path="/61951597/6199B3ED" Ref="CN3"  Part="1" 
 F 0 "CN3" H 7630 4846 50  0000 L CNN
 F 1 "RS232" H 7630 4755 50  0000 L CNN
-F 2 "telemetry-pcb:db-9" H 7450 4800 50  0001 C CNN
+F 2 "Connector_Dsub:DSUB-9_Female_Horizontal_P2.77x2.84mm_EdgePinOffset7.70mm_Housed_MountingHolesOffset9.12mm" H 7450 4800 50  0001 C CNN
 F 3 " ~" H 7450 4800 50  0001 C CNN
 	1    7450 4800
 	1    0    0    -1  
@@ -218,38 +214,20 @@ Connection ~ 6350 2800
 Wire Wire Line
 	6350 2800 6350 3100
 Wire Wire Line
-	6850 5250 6850 5000
-Connection ~ 6850 5000
-Wire Wire Line
-	4050 4800 6750 4800
-Wire Wire Line
-	6850 3400 6850 5000
+	4050 5000 6650 5000
 Wire Wire Line
 	6000 3400 6850 3400
-Wire Wire Line
-	6750 4800 6750 5250
-Connection ~ 6750 4800
-Wire Wire Line
-	6750 4800 7150 4800
-Wire Wire Line
-	6850 5000 7150 5000
-Wire Wire Line
-	7150 4400 7000 4400
-Wire Wire Line
-	7000 4400 7000 4100
-Wire Wire Line
-	7000 4100 8250 4100
 $Comp
 L telemetry-pcb-rescue:GND-telemetry-pcb-eagle-import-telemetry-pcb-rescue-telemetry-pcb-rescue #SUPPLY?
 U 1 1 62526122
-P 8250 4700
+P 9350 4550
 AR Path="/62526122" Ref="#SUPPLY?"  Part="1" 
 AR Path="/61951597/62526122" Ref="#SUPPLY02"  Part="1" 
-F 0 "#SUPPLY02" H 8250 4700 50  0001 C CNN
-F 1 "GND" H 8250 4600 59  0000 C CNN
-F 2 "" H 8250 4700 50  0001 C CNN
-F 3 "" H 8250 4700 50  0001 C CNN
-	1    8250 4700
+F 0 "#SUPPLY02" H 9350 4550 50  0001 C CNN
+F 1 "GND" H 9350 4450 59  0000 C CNN
+F 2 "" H 9350 4550 50  0001 C CNN
+F 3 "" H 9350 4550 50  0001 C CNN
+	1    9350 4550
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
@@ -375,17 +353,45 @@ Wire Wire Line
 Wire Wire Line
 	9350 3850 9350 4000
 Wire Wire Line
-	8250 4100 8250 4450
-Wire Wire Line
 	9350 4300 9350 4450
-Wire Wire Line
-	9350 4450 8250 4450
-Connection ~ 8250 4450
-Wire Wire Line
-	8250 4450 8250 4600
 Wire Wire Line
 	8000 2750 8000 3200
 Wire Wire Line
 	8000 3200 7050 3200
 NoConn ~ 8000 2550
+NoConn ~ 7150 4400
+Wire Wire Line
+	6850 3400 6850 4800
+Wire Wire Line
+	6850 4800 7150 4800
+Wire Wire Line
+	4050 3600 4050 5000
+Wire Wire Line
+	6650 4600 6650 5000
+Wire Wire Line
+	6650 4600 7150 4600
+NoConn ~ 7150 5000
+$Comp
+L telemetry-pcb-rescue:GND-telemetry-pcb-eagle-import-telemetry-pcb-rescue-telemetry-pcb-rescue #SUPPLY?
+U 1 1 628611BD
+P 7150 5500
+AR Path="/628611BD" Ref="#SUPPLY?"  Part="1" 
+AR Path="/61951597/628611BD" Ref="#SUPPLY0101"  Part="1" 
+F 0 "#SUPPLY0101" H 7150 5500 50  0001 C CNN
+F 1 "GND" H 7150 5400 59  0000 C CNN
+F 2 "" H 7150 5500 50  0001 C CNN
+F 3 "" H 7150 5500 50  0001 C CNN
+	1    7150 5500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7150 5200 7150 5400
+Wire Wire Line
+	6650 5000 6650 5150
+Connection ~ 6650 5000
+Wire Wire Line
+	6850 4800 6850 5150
+Wire Wire Line
+	6850 5150 6750 5150
+Connection ~ 6850 4800
 $EndSCHEMATC

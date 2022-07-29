@@ -336,7 +336,7 @@ AR Path="/6198C0AA" Ref="CN?"  Part="1"
 AR Path="/6195E29D/6198C0AA" Ref="CN5"  Part="1" 
 F 0 "CN5" V 414 1562 50  0000 R CNN
 F 1 "THERMO1" V 323 1562 50  0000 R CNN
-F 2 "telemetry-pcb:molex-sl-1x02-horizontal" H 450 1750 50  0001 C CNN
+F 2 "telemetry-pcb:molex_sl_1x02_horizontal" H 450 1750 50  0001 C CNN
 F 3 "~" H 450 1750 50  0001 C CNN
 	1    450  1750
 	-1   0    0    1   
@@ -541,7 +541,7 @@ AR Path="/6198C0A0" Ref="CN?"  Part="1"
 AR Path="/6195E29D/6198C0A0" Ref="CN6"  Part="1" 
 F 0 "CN6" V 1064 3562 50  0000 R CNN
 F 1 "THERMO2" V 973 3562 50  0000 R CNN
-F 2 "telemetry-pcb:molex-sl-1x02-horizontal" H 1100 3750 50  0001 C CNN
+F 2 "telemetry-pcb:molex_sl_1x02_horizontal" H 1100 3750 50  0001 C CNN
 F 3 "~" H 1100 3750 50  0001 C CNN
 	1    1100 3750
 	-1   0    0    1   
@@ -711,7 +711,7 @@ AR Path="/6188C66E/6247070B" Ref="CN?"  Part="1"
 AR Path="/6195E29D/6247070B" Ref="CN7"  Part="1" 
 F 0 "CN7" V 10914 4712 50  0000 R CNN
 F 1 "CAN" V 10823 4712 50  0000 R CNN
-F 2 "telemetry-pcb:molex_sl_1x03_horizontal" H 10950 4900 50  0001 C CNN
+F 2 "telemetry-pcb:molex-sl-1x03-horizontal" H 10950 4900 50  0001 C CNN
 F 3 "~" H 10950 4900 50  0001 C CNN
 	1    10950 4900
 	1    0    0    -1  
@@ -765,7 +765,7 @@ AR Path="/6188C66E/625E6ABC" Ref="CN?"  Part="1"
 AR Path="/6195E29D/625E6ABC" Ref="CN2"  Part="1" 
 F 0 "CN2" V 10914 5212 50  0000 R CNN
 F 1 "CAN" V 10823 5212 50  0000 R CNN
-F 2 "telemetry-pcb:molex_sl_1x03_horizontal" H 10950 5400 50  0001 C CNN
+F 2 "telemetry-pcb:molex-sl-1x03-horizontal" H 10950 5400 50  0001 C CNN
 F 3 "~" H 10950 5400 50  0001 C CNN
 	1    10950 5400
 	1    0    0    -1  
@@ -794,8 +794,8 @@ L power:GND #PWR?
 U 1 1 62320513
 P 10650 6000
 AR Path="/62320513" Ref="#PWR?"  Part="1" 
-AR Path="/6195E29D/62320513" Ref="#PWR?"  Part="1" 
-F 0 "#PWR?" H 10650 5750 50  0001 C CNN
+AR Path="/6195E29D/62320513" Ref="#PWR0101"  Part="1" 
+F 0 "#PWR0101" H 10650 5750 50  0001 C CNN
 F 1 "GND" H 10655 5827 50  0000 C CNN
 F 2 "" H 10650 6000 50  0001 C CNN
 F 3 "" H 10650 6000 50  0001 C CNN
