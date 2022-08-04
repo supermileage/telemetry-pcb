@@ -279,12 +279,12 @@ $EndComp
 Wire Wire Line
 	8950 1900 8950 2350
 $Comp
-L Connector_Generic:Conn_01x05 CN4
+L Connector_Generic:Conn_01x04 CN4
 U 1 1 62553AD4
 P 7800 2550
 F 0 "CN4" H 7718 2125 50  0000 C CNN
 F 1 "UART" H 7718 2216 50  0000 C CNN
-F 2 "telemetry-pcb:Molex-70551-0004-0" H 7800 2550 50  0001 C CNN
+F 2 "telemetry-pcb:molex_sl_1x04_horizontal" H 7800 2550 50  0001 C CNN
 F 3 "~" H 7800 2550 50  0001 C CNN
 	1    7800 2550
 	-1   0    0    1   
@@ -335,8 +335,6 @@ Wire Wire Line
 Wire Wire Line
 	10250 3100 10250 3000
 Wire Wire Line
-	8000 2650 8700 2650
-Wire Wire Line
 	8950 2900 9550 2900
 Wire Wire Line
 	8950 2350 9550 2350
@@ -345,18 +343,13 @@ Wire Wire Line
 Wire Wire Line
 	8700 3000 9550 3000
 Wire Wire Line
-	8700 2650 8700 3000
-Wire Wire Line
 	9350 3100 9550 3100
 Wire Wire Line
 	10200 4150 10200 4300
 Wire Wire Line
 	10200 4600 10200 4750
 Wire Wire Line
-	8000 2750 8000 3200
-Wire Wire Line
 	8000 3200 7050 3200
-NoConn ~ 8000 2550
 NoConn ~ 7150 4400
 Wire Wire Line
 	6850 3400 6850 4800
@@ -390,8 +383,8 @@ L power:+3V3 #PWR?
 U 1 1 62EA7564
 P 10750 3450
 AR Path="/62EA7564" Ref="#PWR?"  Part="1" 
-AR Path="/61951597/62EA7564" Ref="#PWR?"  Part="1" 
-F 0 "#PWR?" H 10750 3300 50  0001 C CNN
+AR Path="/61951597/62EA7564" Ref="#PWR0102"  Part="1" 
+F 0 "#PWR0102" H 10750 3300 50  0001 C CNN
 F 1 "+3V3" H 10765 3623 50  0000 C CNN
 F 2 "" H 10750 3450 50  0001 C CNN
 F 3 "" H 10750 3450 50  0001 C CNN
@@ -402,4 +395,10 @@ Wire Wire Line
 	10750 3450 10200 3450
 Wire Wire Line
 	10200 3450 10200 3600
+Wire Wire Line
+	8700 2550 8000 2550
+Wire Wire Line
+	8700 2550 8700 3000
+Wire Wire Line
+	8000 2650 8000 3200
 $EndSCHEMATC

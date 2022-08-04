@@ -336,7 +336,7 @@ AR Path="/6198C0AA" Ref="CN?"  Part="1"
 AR Path="/6195E29D/6198C0AA" Ref="CN5"  Part="1" 
 F 0 "CN5" V 414 1562 50  0000 R CNN
 F 1 "THERMO1" V 323 1562 50  0000 R CNN
-F 2 "telemetry-pcb:molex_sl_1x02_horizontal" H 450 1750 50  0001 C CNN
+F 2 "telemetry-pcb:ScrewTermPlug1x02" H 450 1750 50  0001 C CNN
 F 3 "~" H 450 1750 50  0001 C CNN
 	1    450  1750
 	-1   0    0    1   
@@ -541,7 +541,7 @@ AR Path="/6198C0A0" Ref="CN?"  Part="1"
 AR Path="/6195E29D/6198C0A0" Ref="CN6"  Part="1" 
 F 0 "CN6" V 1064 3562 50  0000 R CNN
 F 1 "THERMO2" V 973 3562 50  0000 R CNN
-F 2 "telemetry-pcb:molex_sl_1x02_horizontal" H 1100 3750 50  0001 C CNN
+F 2 "telemetry-pcb:ScrewTermPlug1x02" H 1100 3750 50  0001 C CNN
 F 3 "~" H 1100 3750 50  0001 C CNN
 	1    1100 3750
 	-1   0    0    1   

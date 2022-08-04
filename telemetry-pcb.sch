@@ -34,14 +34,14 @@ MO
 Text Label 10600 1700 0    50   ~ 0
 A3
 $Comp
-L Connector_Generic:Conn_01x04 CN1
+L Connector_Generic:Conn_01x02 CN1
 U 1 1 621A168A
 P 1300 1150
 AR Path="/621A168A" Ref="CN1"  Part="1" 
 AR Path="/6188C66E/621A168A" Ref="CN?"  Part="1" 
 F 0 "CN1" V 1400 1300 50  0000 R CNN
 F 1 "12V" V 1400 1050 50  0000 R CNN
-F 2 "telemetry-pcb:molex_sl_1x04_horizontal" H 1300 1150 50  0001 C CNN
+F 2 "telemetry-pcb:molex_sl_1x02_horizontal" H 1300 1150 50  0001 C CNN
 F 3 "~" H 1300 1150 50  0001 C CNN
 	1    1300 1150
 	0    -1   -1   0   
@@ -98,8 +98,6 @@ F 3 "~" H 10400 6400 50  0001 C CNN
 	1    10400 6400
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	10400 6100 10400 7650
 $Comp
 L Device:R R2
 U 1 1 621A16B6
@@ -171,19 +169,6 @@ Wire Wire Line
 	1900 3350 1500 3350
 Wire Wire Line
 	850  3350 1200 3350
-$Comp
-L power:GND #PWR012
-U 1 1 621A1705
-P 10400 7650
-AR Path="/621A1705" Ref="#PWR012"  Part="1" 
-AR Path="/6188C66E/621A1705" Ref="#PWR?"  Part="1" 
-F 0 "#PWR012" H 10400 7400 50  0001 C CNN
-F 1 "GND" H 10405 7477 50  0000 C CNN
-F 2 "" H 10400 7650 50  0001 C CNN
-F 3 "" H 10400 7650 50  0001 C CNN
-	1    10400 7650
-	1    0    0    -1  
-$EndComp
 $Comp
 L Device:R R3
 U 1 1 621A171E
@@ -890,26 +875,12 @@ Wire Wire Line
 Wire Wire Line
 	1900 1650 1900 1500
 Wire Wire Line
-	1900 1500 1500 1500
-Wire Wire Line
-	1500 1500 1500 1350
-Wire Wire Line
 	1400 1350 1400 1500
-Wire Wire Line
-	1400 1500 1500 1500
-Connection ~ 1500 1500
 Wire Wire Line
 	1300 1350 1300 1500
 Wire Wire Line
-	1300 1500 1200 1500
-Wire Wire Line
 	850  1500 850  2100
 Connection ~ 850  2100
-Wire Wire Line
-	1200 1350 1200 1500
-Connection ~ 1200 1500
-Wire Wire Line
-	1200 1500 850  1500
 $Comp
 L Connector_Generic:Conn_01x04 CN8
 U 1 1 622718B5
@@ -921,4 +892,8 @@ F 3 "~" H 9000 5450 50  0001 C CNN
 	1    9000 5450
 	1    0    0    -1  
 $EndComp
+Wire Wire Line
+	850  1500 1300 1500
+Wire Wire Line
+	1400 1500 1900 1500
 $EndSCHEMATC
