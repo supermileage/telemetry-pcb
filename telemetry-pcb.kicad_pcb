@@ -3584,10 +3584,10 @@
   (gr_text "Silviu Toderita\nValentino Jaber\nColby Sparks" (at 117.1194 86.4235) (layer "F.SilkS") (tstamp 00000000-0000-0000-0000-000062228820)
     (effects (font (size 1 1) (thickness 0.15)) (justify right))
   )
-  (gr_text "Aug 9 2022" (at 101.3714 82.3595) (layer "F.SilkS") (tstamp bc7b8588-8cf0-4fb0-a3f5-bdb55e80ca89)
+  (gr_text "Nov 19 2022" (at 101.5634 82.3595) (layer "F.SilkS") (tstamp bc7b8588-8cf0-4fb0-a3f5-bdb55e80ca89)
     (effects (font (size 1 1) (thickness 0.15)))
   )
-  (gr_text "Telemetry 2.0" (at 106.9594 79.8195) (layer "F.SilkS") (tstamp e3956abc-48fe-43c6-bb13-8b202b73011a)
+  (gr_text "Telemetry 2.1" (at 106.9594 79.8195) (layer "F.SilkS") (tstamp e3956abc-48fe-43c6-bb13-8b202b73011a)
     (effects (font (size 2 2) (thickness 0.3)))
   )
 
