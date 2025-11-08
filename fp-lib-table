@@ -1,4 +1,6 @@
 (fp_lib_table
-  (lib (name telemetry-pcb)(type KiCad)(uri /Users/silviu/git/telemetry-pcb)(options "")(descr ""))
-  (lib (name Footprints)(type KiCad)(uri ${KIPRJMOD}/Footprints)(options "")(descr ""))
+  (version 7)
+  (lib (name "telemetry-pcb")(type "KiCad")(uri "/Users/silviu/git/telemetry-pcb")(options "")(descr ""))
+  (lib (name "Footprints")(type "KiCad")(uri "${KIPRJMOD}/Footprints")(options "")(descr ""))
+  (lib (name "Library")(type "KiCad")(uri "${KIPRJMOD}/Footprints/KiCADv6/footprints.pretty/Library.pretty")(options "")(descr ""))
 )

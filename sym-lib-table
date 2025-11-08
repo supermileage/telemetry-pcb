@@ -1,4 +1,6 @@
 (sym_lib_table
-  (lib (name telemetry-pcb)(type Legacy)(uri ${KIPRJMOD}/telemetry-pcb.lib)(options "")(descr ""))
-  (lib (name telemetry-pcb-rescue)(type Legacy)(uri ${KIPRJMOD}/telemetry-pcb-rescue.lib)(options "")(descr ""))
+  (version 7)
+  (lib (name "telemetry-pcb")(type "Legacy")(uri "${KIPRJMOD}/telemetry-pcb.lib")(options "")(descr ""))
+  (lib (name "telemetry-pcb-rescue")(type "Legacy")(uri "${KIPRJMOD}/telemetry-pcb-rescue.lib")(options "")(descr ""))
+  (lib (name "2025-11-01_18-29-52")(type "KiCad")(uri "${KIPRJMOD}/Footprints/KiCADv6/2025-11-01_18-29-52.kicad_sym")(options "")(descr ""))
 )
