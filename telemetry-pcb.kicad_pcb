@@ -9911,7 +9911,7 @@
 			(uuid "ede82619-0366-43b6-940b-5dbb18cd97a8")
 		)
 		(fp_text user "RX(3)"
-			(at -5.588 -4.826 90)
+			(at -4.8514 -4.1275 90)
 			(layer "F.SilkS")
 			(uuid "7d6b46d7-c183-471c-a35b-9389da293ede")
 			(effects
@@ -9922,7 +9922,7 @@
 			)
 		)
 		(fp_text user "TX(2)"
-			(at -2.794 -4.826 90)
+			(at -2.6924 -4.0513 90)
 			(layer "F.SilkS")
 			(uuid "e366783e-f759-45cc-aef3-497cc468ad79")
 			(effects
@@ -11777,7 +11777,7 @@
 	(footprint "Footprints:sm-logo-small"
 		(layer "F.Cu")
 		(uuid "9dcfc385-4416-41b6-a231-3c444558d9ac")
-		(at 137.3632 70.9422)
+		(at 136.981653 71.411204)
 		(property "Reference" "G***"
 			(at 0 0 0)
 			(layer "F.SilkS")
