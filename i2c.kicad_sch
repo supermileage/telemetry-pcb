@@ -4070,7 +4070,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1F"
+		(property "Value" "1uF"
 			(at 66.0654 115.316 0)
 			(effects
 				(font
