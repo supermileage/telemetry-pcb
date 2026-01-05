@@ -3240,12 +3240,6 @@
 		(uuid "a8ce1609-26df-42fb-a3b1-01fc41db1cc7")
 	)
 	(junction
-		(at 266.7 118.11)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "ad70c7a8-1add-43c8-ba9b-d21bce6aee9c")
-	)
-	(junction
 		(at 72.39 101.6)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3256,6 +3250,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ced7276c-7c67-4534-a88e-3a20a2703516")
+	)
+	(junction
+		(at 266.7 118.11)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d5df5d1d-9788-4dce-8ebb-90a88f91a7f8")
 	)
 	(junction
 		(at 264.16 139.7)
@@ -3829,16 +3829,6 @@
 	)
 	(wire
 		(pts
-			(xy 270.51 123.19) (xy 270.51 142.24)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "56cf845d-37d7-4b26-a0cf-b60e07aea2d7")
-	)
-	(wire
-		(pts
 			(xy 207.01 55.88) (xy 203.2 55.88)
 		)
 		(stroke
@@ -4066,6 +4056,16 @@
 			(type default)
 		)
 		(uuid "886c2c37-f97b-44ef-8085-7ac58901250e")
+	)
+	(wire
+		(pts
+			(xy 270.51 123.19) (xy 270.51 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "88f26551-5ef7-474d-a67a-209011ac249e")
 	)
 	(wire
 		(pts
@@ -6957,79 +6957,6 @@
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_01x03")
-		(at 279.4 139.7 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "a7c683f7-661f-4321-8a3f-3857e3647072")
-		(property "Reference" "CAN2"
-			(at 281.94 138.4299 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "Conn_01x03"
-			(at 281.94 140.9699 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Library:CONN_SD-43650-001_03_MOL"
-			(at 279.4 139.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 279.4 139.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 279.4 139.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "9800af7f-76d5-426c-9f11-4cb97ac96151")
-		)
-		(pin "3"
-			(uuid "6f32f136-6586-4b60-9372-86c362e3053b")
-		)
-		(pin "2"
-			(uuid "cec9a9ce-2e76-4562-ad6a-097aa2dbdc6b")
-		)
-		(instances
-			(project "telemetry-pcb"
-				(path "/871fe08d-2afd-493a-a8ef-c8aa2cbbb7b9/00000000-0000-0000-0000-00006195e29d"
-					(reference "CAN2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector_Generic:Conn_01x03")
 		(at 279.4 120.65 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -7037,8 +6964,8 @@
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "ebe10aa4-211e-4ef3-84b7-dc53d09ac73d")
-		(property "Reference" "CAN1"
+		(uuid "8e0511fc-df34-4d8c-82dc-62acfa767eea")
+		(property "Reference" "CAN3"
 			(at 281.94 119.3799 0)
 			(effects
 				(font
@@ -7084,18 +7011,91 @@
 			)
 		)
 		(pin "1"
-			(uuid "47095a68-562d-471b-a070-6c99e6786b6d")
+			(uuid "1005760c-44e9-43a0-921f-bc5ad344ad37")
 		)
 		(pin "3"
-			(uuid "07f63c19-cb0d-4421-9fbd-6a6f06c26cdb")
+			(uuid "985b9636-f7b2-4e68-8eba-d86735d9e556")
 		)
 		(pin "2"
-			(uuid "436ae92a-5a6f-4a72-8546-7095cc2cc815")
+			(uuid "93b71ee7-e64b-4901-955b-7566a3b95942")
 		)
 		(instances
-			(project ""
+			(project "telemetry-pcb"
 				(path "/871fe08d-2afd-493a-a8ef-c8aa2cbbb7b9/00000000-0000-0000-0000-00006195e29d"
-					(reference "CAN1")
+					(reference "CAN3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x03")
+		(at 279.4 139.7 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "bf06703a-ccf1-40b1-8099-d99541324cb7")
+		(property "Reference" "CAN4"
+			(at 281.94 138.4299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Conn_01x03"
+			(at 281.94 140.9699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Library:CONN_SD-43650-001_03_MOL"
+			(at 279.4 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 279.4 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 279.4 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e5d40ebe-ba94-49ca-9cdc-a8b05e32eb13")
+		)
+		(pin "3"
+			(uuid "e4dc94a2-7f28-48ac-9ce9-37b39a9060dd")
+		)
+		(pin "2"
+			(uuid "1af2154f-3cc0-4e53-a8be-50755cec0370")
+		)
+		(instances
+			(project "telemetry-pcb"
+				(path "/871fe08d-2afd-493a-a8ef-c8aa2cbbb7b9/00000000-0000-0000-0000-00006195e29d"
+					(reference "CAN4")
 					(unit 1)
 				)
 			)
