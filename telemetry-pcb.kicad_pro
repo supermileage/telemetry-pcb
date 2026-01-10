@@ -37,9 +37,9 @@
         "other_text_thickness": 0.15,
         "other_text_upright": false,
         "pads": {
-          "drill": 0.8,
-          "height": 1.4,
-          "width": 1.4
+          "drill": 1.0,
+          "height": 1.6,
+          "width": 1.6
         },
         "silk_line_width": 0.12,
         "silk_text_italic": false,
@@ -59,104 +59,7 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [
-        [
-          "clearance|134937500|117199600|8c977f0f-9610-432b-9432-1659c16bda8a|454d4d88-8c37-4bd4-85cf-3ddfc9103706",
-          ""
-        ],
-        [
-          "clearance|134937500|117699600|418a983b-02e5-4d36-8dfe-2a25d382a9c7|8c977f0f-9610-432b-9432-1659c16bda8a",
-          ""
-        ],
-        [
-          "clearance|134937500|118199601|b383ba2f-7252-4951-8a2c-0bcd2408b23a|418a983b-02e5-4d36-8dfe-2a25d382a9c7",
-          ""
-        ],
-        [
-          "clearance|135291001|116332000|6cdc9faa-499c-4822-bec2-927bbc56d244|7513b960-0948-4bb6-9c03-979c8ad249d0",
-          ""
-        ],
-        [
-          "clearance|135486201|119405400|19680642-7387-4834-b60e-ffe95542ba0f|4b2ca438-bd54-4aa9-b3bc-f01848fff9fa",
-          ""
-        ],
-        [
-          "clearance|135791001|116332000|7513b960-0948-4bb6-9c03-979c8ad249d0|f6f4b394-723c-46eb-9b74-9070c1a3d543",
-          ""
-        ],
-        [
-          "clearance|135986200|119405400|f0ca28b2-60e7-4351-8ba0-275bbe95eea9|19680642-7387-4834-b60e-ffe95542ba0f",
-          ""
-        ],
-        [
-          "clearance|136291000|116332000|f6f4b394-723c-46eb-9b74-9070c1a3d543|fceb054d-be55-4b82-8157-fe6467e6e34f",
-          ""
-        ],
-        [
-          "clearance|136486199|119405400|f882c663-bbcf-4881-a24d-cb7aba68d4a8|f0ca28b2-60e7-4351-8ba0-275bbe95eea9",
-          ""
-        ],
-        [
-          "clearance|136790999|116332000|fceb054d-be55-4b82-8157-fe6467e6e34f|300b2675-c2dd-42bf-b354-054ae9e25523",
-          ""
-        ],
-        [
-          "clearance|136986200|119405400|688d22fd-cfed-4214-94a4-b097d871738c|f882c663-bbcf-4881-a24d-cb7aba68d4a8",
-          ""
-        ],
-        [
-          "clearance|137291000|116332000|300b2675-c2dd-42bf-b354-054ae9e25523|c7d2e19a-dbc0-4cc8-ae1f-8689c90aef41",
-          ""
-        ],
-        [
-          "clearance|137486200|119405400|a5fc3a38-935f-4a5c-acc3-370f6d5ab2a5|688d22fd-cfed-4214-94a4-b097d871738c",
-          ""
-        ],
-        [
-          "clearance|137791000|116332000|c7d2e19a-dbc0-4cc8-ae1f-8689c90aef41|3d2fb181-b31f-4930-8289-fdb21a7a89bc",
-          ""
-        ],
-        [
-          "clearance|137986201|119405400|ae59434e-7046-4a94-9dca-aa538b70e6d1|a5fc3a38-935f-4a5c-acc3-370f6d5ab2a5",
-          ""
-        ],
-        [
-          "clearance|138291001|116332000|3d2fb181-b31f-4930-8289-fdb21a7a89bc|7866c340-f9cf-4ccb-baed-40bd496dbbc1",
-          ""
-        ],
-        [
-          "clearance|138486200|119405400|fd6c4979-d3fa-489a-80fe-59f732be4266|ae59434e-7046-4a94-9dca-aa538b70e6d1",
-          ""
-        ],
-        [
-          "clearance|138791000|116332000|7866c340-f9cf-4ccb-baed-40bd496dbbc1|daf830e7-a228-4055-8e6d-0519d69cc399",
-          ""
-        ],
-        [
-          "clearance|138986199|119405400|fe841e86-73f8-4cca-9704-5c9f765bfb51|fd6c4979-d3fa-489a-80fe-59f732be4266",
-          ""
-        ],
-        [
-          "clearance|139407900|117004399|eae84c2d-3c73-4886-b4f7-be7563731d2c|24a6b20d-5444-4bcd-b47c-7e8c07713345",
-          ""
-        ],
-        [
-          "clearance|139407900|117504400|24a6b20d-5444-4bcd-b47c-7e8c07713345|9f65e52e-e22d-41eb-9524-7c376a82be11",
-          ""
-        ],
-        [
-          "clearance|139407900|118004400|9f65e52e-e22d-41eb-9524-7c376a82be11|5aabcd25-42c8-48a4-9211-510c630a3f76",
-          ""
-        ],
-        [
-          "clearance|139486199|116332000|79028941-c716-48d6-8258-00027fe049c2|daf830e7-a228-4055-8e6d-0519d69cc399",
-          ""
-        ],
-        [
-          "clearance|139486199|119405400|9ba8d245-5d3f-4422-8214-39c4f5f2b584|fe841e86-73f8-4cca-9704-5c9f765bfb51",
-          ""
-        ]
-      ],
+      "drc_exclusions": [],
       "meta": {
         "filename": "board_design_settings.json",
         "version": 2
@@ -227,7 +130,7 @@
         "allow_blind_buried_vias": false,
         "allow_microvias": false,
         "max_error": 0.005,
-        "min_clearance": 0.2,
+        "min_clearance": 0.19,
         "min_connection": 0.0,
         "min_copper_edge_clearance": 0.05,
         "min_groove_width": 0.0,
