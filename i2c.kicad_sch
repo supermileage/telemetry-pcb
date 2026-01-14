@@ -4062,7 +4062,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "GREEN"
+		(property "Value" "ORANGE"
 			(at 61.976 148.6154 90)
 			(effects
 				(font
